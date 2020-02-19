@@ -138,7 +138,8 @@
 
 }
 
-.botonFiltro{
+.botonFiltroCL, .botonFiltroPL, .botonFiltroWL, .botonFiltroTU, .botonFiltroPR, .botonFiltroGB, 
+.botonFiltroMA, .botonFiltroWA{
 
     padding-left: 15px !important;
     padding-right: 15px !important;
