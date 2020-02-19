@@ -1,0 +1,418 @@
+.tituloPrincipal{
+
+    color: white;
+    font-size: 15px;
+
+}
+
+.tituloFooter{
+
+    color: white;
+    font-size: 15px;
+
+}
+
+.barraArriba{
+
+    padding: 0px;
+
+}
+
+.containerSlide{
+
+    padding-right: 52px;
+    padding-left: 52px;
+
+}
+
+.navMenuColor{
+
+    background-color: #0C6295;
+
+}
+
+.navMenuMargin1{
+
+    margin-top: 4px;
+    margin-bottom: 20px;
+
+}
+
+.navMenuMargin2{
+
+    margin-top: 0px;
+
+}
+
+.footer {
+
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #0C6295;
+    text-align: center;
+    margin-top: 50px;;
+
+}
+
+.logosFinal{
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.logosFinalT{
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #0C6295;
+    color: white;
+}
+
+.back-to-top:hover{
+
+    background-color: #0C6295;
+    color: white;
+
+}
+
+.back-to-top:active{
+
+    background-color: #0C6295;
+    color: white;
+
+}
+
+.hrFinal{
+
+    border: 1px solid #0C6295;
+
+}
+
+.navMenuXSMargin{
+
+    margin-top: 30px;
+
+}
+
+.listaSitios{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+}
+
+.tituloPreFooter{
+
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.sitiosWeb{
+
+    font-size: 15px;
+
+}
+
+.containerAlbum{
+
+    padding: 0px;
+
+}
+
+.botonFiltro{
+
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+}
+
+.btnFiltroXS{
+
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+
+}
+
+
+/*------------------------------------*\
+	Responsive
+\*------------------------------------*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 575px) {
+    
+    .bannerXS{
+
+        display: block;
+
+    }
+
+    .bannerS{
+
+        display: none;
+
+    }
+
+    .bannerM{
+
+        display: none;
+
+    }
+
+    .bannerLG{
+
+        display: none;
+
+    }
+
+    .bannerXL{
+
+        display: none;
+
+    }
+
+    .tituloPrincipal{
+
+        color: white;
+        font-size: 13px;
+    
+    }
+
+    .divMenuXS{
+
+        margin-bottom: 30px;
+
+    }
+
+    .divMenuLarge{
+
+
+        display: none !important;
+
+    }
+
+    .ulRedes{
+
+        text-align: center;
+    
+    }
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+
+    .bannerXS{
+
+        display: none;
+
+    }
+
+    .bannerS{
+
+        display: block;
+
+    }
+
+    .bannerM{
+
+        display: none;
+
+    }
+
+    .bannerLG{
+
+        display: none;
+
+    }
+
+    .bannerXL{
+
+        display: none;
+
+    }
+
+    .divMenuXS{
+
+        display: none;
+
+    }
+
+    .ulRedes{
+
+        text-align: center;
+    
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	.bannerXS{
+
+        display: none;
+
+    }
+
+    .bannerS{
+
+        display: none;
+
+    }
+
+    .bannerM{
+
+        display: block;
+
+    }
+
+    .bannerLG{
+
+        display: none;
+
+    }
+
+    .bannerXL{
+
+        display: none;
+
+    }
+
+    .divMenuXS{
+
+        display: none;
+
+    }
+
+    .ulRedes{
+
+        text-align: right;
+    
+    
+    }
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.bannerXS{
+
+        display: none;
+
+    }
+
+    .bannerS{
+
+        display: none;
+
+    }
+
+    .bannerM{
+
+        display: none;
+
+    }
+
+    .bannerLG{
+
+        display: block;
+
+    }
+
+    .bannerXL{
+
+        display: none;
+
+    }
+
+    .divMenuXS{
+
+        display: none;
+
+    }
+
+    .ulRedes{
+
+        text-align: right;
+    
+    
+    }
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.bannerXS{
+
+        display: none;
+
+    }
+
+    .bannerS{
+
+        display: none;
+
+    }
+
+    .bannerM{
+
+        display: none;
+
+    }
+
+    .bannerLG{
+
+        display: none;
+
+    }
+
+    .bannerXL{
+
+        display: block;
+
+    }
+
+    .containerBanners{
+
+        padding: 0px;
+
+    }
+
+    .divMenuXS{
+
+        display: none;
+
+    }
+
+    .ulRedes{
+
+        text-align: right;
+  
+    
+    }
+
+}
