@@ -1,0 +1,39 @@
+<FilesMatch "img/contenido/Materiales/RS Grupos 2019.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+
+<FilesMatch "img/contenido/Materiales/RS Kit de Prensa 2019.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+
+<FilesMatch "img/contenido/Materiales/Privilege Brochure Esp.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+
+<FilesMatch "img/contenido/Materiales/Rio Secreto Book ESP.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+
+<FilesMatch "img/contenido/Materiales/Mica-RS-2019.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+
+<FilesMatch "img/contenido/Materiales/mica-rs-wild.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+
+<FilesMatch "img/contenido/Materiales/Mica RS Tulum Print.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+
+<FilesMatch "img/contenido/Materiales/Mica Privile.pdf$">
+Satisfy Any
+Allow from all
+</FilesMatch>

@@ -152,6 +152,14 @@
 
 }
 
+.imgBienvenidos{
+
+    display:flex;
+    margin:0 auto;
+    align: justify;
+
+}
+
 
 /*------------------------------------*\
 	Responsive
@@ -216,6 +224,16 @@
     
     }
 
+    .imgBienvenidos{
+
+        display:flex;
+        margin:0 auto;
+        width: 100%;
+        align: justify;
+        margin-bottom: 16px;
+    
+    }
+
 
 } 
 
@@ -261,6 +279,15 @@
     .ulRedes{
 
         text-align: center;
+    
+    }
+
+    .imgBienvenidos{
+
+        display:flex;
+        margin:0 auto;
+        align: justify;
+        margin-bottom: 16px;
     
     }
 
