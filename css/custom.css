@@ -37,6 +37,30 @@
 
 }
 
+.navMenuColorRSPLUS{
+
+    background-color: #3DA491;
+
+}
+
+.navMenuColorRSWILD{
+
+    background-color: #463119;
+
+}
+
+.navMenuColorRSTULUM{
+
+    background-color: #F58323;
+
+}
+
+.navMenuColorRSPRIVILEGE{
+
+    background-color: #000000;
+
+}
+
 .navMenuMargin1{
 
     margin-top: 4px;
@@ -59,6 +83,62 @@
     height: 60px;
     line-height: 60px; /* Vertically center the text there */
     background-color: #0C6295;
+    text-align: center;
+    margin-top: 50px;;
+
+}
+
+.footerRSPLUS {
+
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #3DA491;
+    text-align: center;
+    margin-top: 50px;;
+
+}
+
+.footerRSWILD {
+
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #463119;
+    text-align: center;
+    margin-top: 50px;;
+
+}
+
+.footerRSTULUM {
+
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #F58323;
+    text-align: center;
+    margin-top: 50px;;
+
+}
+
+.footerRSPRIVILEGE {
+
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #000000;
     text-align: center;
     margin-top: 50px;;
 
@@ -91,6 +171,42 @@
     color: white;
 }
 
+.back-to-topRSPlus {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #3DA491;
+    color: white;
+}
+
+.back-to-topRSWILD {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #463119;
+    color: white;
+}
+
+.back-to-topRSTULUM {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #F58323;
+    color: white;
+}
+
+.back-to-topRSPRIVILEGE {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #000000;
+    color: white;
+}
+
 .back-to-top:hover{
 
     background-color: #0C6295;
@@ -108,6 +224,12 @@
 .hrFinal{
 
     border: 1px solid #0C6295;
+
+}
+
+.hrFinalRSPLUS{
+
+    border: 1px solid #3DA491;
 
 }
 
