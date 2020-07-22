@@ -162,6 +162,24 @@
 
 }
 
+.logosFinalG{
+
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.logosFinalP{
+
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
 .back-to-top {
     position: fixed;
     bottom: 25px;
