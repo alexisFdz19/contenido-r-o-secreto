@@ -16,6 +16,7 @@ $('.botonFiltroCL').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
 
@@ -31,6 +32,7 @@ $('.botonFiltroPL').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
 
@@ -46,6 +48,7 @@ $('.botonFiltroWL').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
 
@@ -61,6 +64,7 @@ $('.botonFiltroTU').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
 
@@ -76,6 +80,23 @@ $('.botonFiltroTUP').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').show();
+    $('.ap10').hide();
+
+})
+
+$('.botonFiltroCOB').click(function(){
+
+    $('.ap').hide();
+    $('.ap1').hide();
+    $('.ap2').hide();
+    $('.ap3').hide();
+    $('.ap4').hide();
+    $('.ap5').hide();
+    $('.ap6').hide();
+    $('.ap7').hide();
+    $('.ap8').hide();
+    $('.ap9').hide();
+    $('.ap10').show();
 
 })
 
@@ -91,6 +112,7 @@ $('.botonFiltroPR').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
 
@@ -106,6 +128,7 @@ $('.botonFiltroGB').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
 
@@ -121,6 +144,7 @@ $('.botonFiltroMA').click(function(){
     $('.ap7').hide();
     $('.ap8').hide();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
 
@@ -136,5 +160,7 @@ $('.botonFiltroWA').click(function(){
     $('.ap7').hide();
     $('.ap8').show();
     $('.ap9').hide();
+    $('.ap10').hide();
 
 })
+

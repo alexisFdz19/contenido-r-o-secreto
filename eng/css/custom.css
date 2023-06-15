@@ -166,7 +166,7 @@
 
 .logosFinal{
 
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -175,7 +175,7 @@
 
 .logosFinalT{
 
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -184,7 +184,7 @@
 
 .logosFinalG{
 
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -202,7 +202,7 @@
 
 .logosFinalP2{
 
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -325,8 +325,8 @@
 .botonFiltroCL, .botonFiltroPL, .botonFiltroWL, .botonFiltroTU, .botonFiltroPR, .botonFiltroGB, 
 .botonFiltroMA, .botonFiltroWA, .botonFiltroTUP{
 
-    padding-left: 7px !important;
-    padding-right: 7px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 
 }
 
