@@ -2,7 +2,7 @@
 
 class Conexion{
 
-	public function conectar(){
+	public static function conectar(){
 
 		// Datos de conexión a la base de datos del sitio web. 1ro: host, 2do:  nombre base de datos, 3ro: usuario, 4to: password
 		$link = new PDO("mysql:host=localhost;dbname=imagenriosecreto",

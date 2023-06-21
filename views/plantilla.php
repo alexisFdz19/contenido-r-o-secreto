@@ -81,8 +81,12 @@
                 $ruta = null;
                 $infoPropiedad = null;
 
+                // echo $_GET["ruta"]; // Verificar el valor de $_GET["ruta"]
+
                 if(isset($_GET["ruta"])){
 
+                    // echo "El bloque if se está ejecutando.";
+                    
                     $rutas = explode("/", $_GET["ruta"]);
 
                     $item = "ruta";
@@ -92,14 +96,14 @@
                         =       URL´s Amigables de paginas        =
                         ==============================================*/
 
-                        $rutaPaginas = ControladorPaginas::ctrMostrarPaginas($item, $valor);
+                        $rutaPaginas = ControladorPaginas::ctrMostrarPaginas($item, $valor);                        
 
-                        if($rutas[0] == $rutaPaginas["ruta"]){
+                        if (is_array($rutaPaginas) && $rutas[0] == $rutaPaginas["ruta"]) {
 
                             $ruta = $rutas[0];
-
+                            
                         }
-
+                        
                         /*==============================================
                         =  Lista blanca de  URL´s Amigables (Páginas que se muestran) =
                         ==============================================*/
@@ -111,20 +115,35 @@
                             case 'index':
                                 include "modulos/index.php"; // Ruta del archivo de la página
                                 break;
+
+                            case 'eng':
+                                include "modulos/ingles.php"; // Ruta del archivo de la página
+                                break;
                             
                             // Página de error 404   
                             default:
                                 include "modulos/"; // Ruta del archivo
                                 break;
 
-                        }
+                        }                   
 
+                } else {
 
-                }else{
+                    // echo "El bloque else se está ejecutando.";
 
                     // Página index o home por defecto del sitio web
-                    include "modulos/index.php"; // Ruta del archivo
-          
+
+                    if ($_SERVER["REQUEST_URI"] === "/imagenriosecreto/") {
+
+                        $ruta = "index";
+                        include "modulos/index.php";
+
+                    } else {
+
+                        // Redireccionar a una página de error o tomar otra acción adecuada
+
+                    }
+
                 }
 
             /*=============================================

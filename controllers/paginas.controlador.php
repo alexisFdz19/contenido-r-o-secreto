@@ -6,7 +6,9 @@ class ControladorPaginas{
 	=            Paginas          =
 	=============================================*/
 
-	static public function ctrMostrarPaginas($item, $valor){
+	// Hay que actualizar a public static y no static public
+
+	public static function ctrMostrarPaginas($item, $valor){
 
 		$tabla = "paginas";
 

@@ -8,7 +8,7 @@ class ModeloCategorias{
 	=            Categorias          =
 	=============================================*/
 
-	static public function mdlMostrarPaginas($tabla, $item, $valor){
+	public static function mdlMostrarPaginas($tabla, $item, $valor){
 
 		if($item != null){
 

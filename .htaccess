@@ -3,6 +3,13 @@ RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^(www\.)?imagenriosecreto\.com
 RewriteRule ^(.*)$ https://www.imagenriosecreto.com/$1 [R,L]
 
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?ruta=$1 [QSA,L]
+
 <FilesMatch "img/contenido/Materiales/RS Grupos 2019.pdf$">
 Satisfy Any
 Allow from all

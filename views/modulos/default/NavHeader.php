@@ -92,11 +92,11 @@
 
       <div class="banderas">
 
-        <a href="" class="linkBanderas"><img src="<?php echo $url?>views/img/default/mexico.jpg" width="20%"></a>
+        <a href="<?php echo $url?>" class="linkBanderas"><img src="<?php echo $url?>views/img/default/mexico.jpg" width="20%"></a>
       
           <span class="tituloPrincipal" style="margin-left: 8px; margin-right: 8px;"> | </span>
 
-        <a href="eng/" class="linkBanderas"><img src="<?php echo $url?>views/img/default/usa.jpg" width="20%"></a>
+        <a href="<?php echo $url?>eng" class="linkBanderas"><img src="<?php echo $url?>views/img/default/usa.jpg" width="20%"></a>
 
       </div>
 
