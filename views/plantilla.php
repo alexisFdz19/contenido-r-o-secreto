@@ -76,6 +76,8 @@
                 /*==============================================
                 =             Contenido dinamico                =
                 ==============================================*/
+
+                // Código condicional para mostrar las páginas en localhost
                 
                 $rutas = array();
                 $ruta = null;
@@ -145,6 +147,68 @@
                     }
 
                 }
+
+                // Código condicional para mostrar las páginas en localhost del servidor GoDaddy
+
+                /* $rutas = array();
+                $ruta = null;
+                $infoPropiedad = null;
+                
+                if (isset($_GET["ruta"])) {
+                
+                    $rutas = explode("/", $_GET["ruta"]);
+                
+                    $item = "ruta";
+                    $valor = $rutas[0];
+                
+                    /*==============================================
+                    =       URL´s Amigables de paginas        =
+                    ==============================================*/
+                
+                    /* $rutaPaginas = ControladorPaginas::ctrMostrarPaginas($item, $valor);
+                
+                    if (is_array($rutaPaginas) && $rutas[0] == $rutaPaginas["ruta"]) {
+                        $ruta = $rutas[0];
+                    } */
+                
+                    /*==============================================
+                    =  Lista blanca de  URL´s Amigables (Páginas que se muestran) =
+                    ==============================================*/
+                
+                    /* switch ($ruta) {
+                
+                        // Casos con respecto a la cantidad de páginas que habrá en el sitio web
+                
+                        case 'index':
+                            include "modulos/index.php"; // Ruta del archivo de la página
+                            break;
+                
+                        case 'eng':
+                            include "modulos/ingles.php"; // Ruta del archivo de la página
+                            break;
+                
+                        // Página de error 404   
+                        default:
+                            include "modulos/"; // Ruta del archivo
+                            break;
+                
+                    }
+                
+                } else {
+                
+                    if (empty($_GET["ruta"]) || $_GET["ruta"] === "index") {
+
+                        // Página index o home por defecto del sitio web
+                        include "modulos/index.php";
+
+                    } else {
+
+                        // Resto del código para manejar las rutas y páginas
+                        // ...
+
+                    }
+
+                } */
 
             /*=============================================
             =            Footer          =
