@@ -1008,14 +1008,14 @@
             </div>
         </div>
 
-        <!--<div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap10 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="img/contenido/Materiales/mockups/mockup-mica-rio-secreto-privilege.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto-coba.jpg" alt="">
             <div class="hover">
-                <a href="img/contenido/Materiales/micas/mica-rio-secreto-privilege.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto-coba-ingles.pdf" target="blank"><h4>Mica</h4></a>
             </div>
             </div>
-        </div>-->
+        </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap10 oculto">
             <div class="h_gallery_item">

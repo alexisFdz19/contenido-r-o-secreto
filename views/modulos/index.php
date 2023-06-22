@@ -1012,7 +1012,7 @@
             <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto-coba.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto-coba-espanol.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto-coba-ingles.pdf" target="blank"><h4>Mica</h4></a>
             </div>
             </div>
         </div>
