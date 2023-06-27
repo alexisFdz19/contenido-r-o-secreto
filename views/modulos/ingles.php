@@ -1525,7 +1525,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-cancun-rio-secreto-clasico-y-plus.jpg" alt="">
             <div class="hover">
                 <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-clasico-y-plus.jpg"><i class="fas fa-expand"><br><br><h4>Pickups from Cancún: RS Clásico y RS Plus</h4></i></a>    
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-clasico-y-plus.jpg"><i class="fas fa-expand"><br><br><h4>Cancún Pickups: RS Clásico y RS Plus</h4></i></a>    
             </div>
             </div>
         </div>
@@ -1535,7 +1535,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-clasico-y-plus.jpg" alt="">
             <div class="hover">
                 <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-clasico-y-plus.jpg"><i class="fas fa-expand"><br><br><h4>Pickups from Riviera Maya: RS Clásico y RS Plus</h4></i></a>    
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-clasico-y-plus.jpg"><i class="fas fa-expand"><br><br><h4>Riviera Maya Pickups: RS Clásico y RS Plus</h4></i></a>    
             </div>
             </div>
         </div>
@@ -1545,7 +1545,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-cancun-rio-secreto-wild-y-tulum.jpg" alt="">
             <div class="hover">
                 <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-wild-y-tulum.jpg"><i class="fas fa-expand"><br><br><h4>Pickups from Cancún: RS Tulum y RS Wild</h4></i></a>    
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-wild-tulum-y-coba.jpg"><i class="fas fa-expand"><br><br><h4>Cancún Pickups: RS Tulum, RS Wild & RS Cobá.</h4></i></a>    
             </div>
             </div>
         </div>
@@ -1555,7 +1555,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-wild-y-tulum.jpg" alt="">
             <div class="hover">
                 <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-wild-y-tulum.jpg"><i class="fas fa-expand"><br><br><h4>Pickups from Riviera Maya: RS Tulum y RS Wild</h4></i></a>    
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-wild-tulum-y-coba.jpg"><i class="fas fa-expand"><br><br><h4>Riviera Maya Pickups: RS Tulum, RS Wild & RS Cobá.</h4></i></a>    
             </div>
             </div>
         </div>
