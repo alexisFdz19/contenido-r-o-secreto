@@ -412,6 +412,14 @@
 	cursor: pointer;
 }
 
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    text-align: center;
+}
+
 
 /*------------------------------------*\
 	Responsive

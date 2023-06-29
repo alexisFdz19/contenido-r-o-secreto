@@ -124,7 +124,7 @@
                             
                             // Página de error 404   
                             default:
-                                include "modulos/"; // Ruta del archivo
+                                include "modulos/default/error404.php"; // Ruta del archivo
                                 break;
 
                         }                   
@@ -142,7 +142,7 @@
 
                     } else {
 
-                        // Redireccionar a una página de error o tomar otra acción adecuada
+                        include "modulos/default/error404.php";
 
                     }
 
@@ -189,7 +189,7 @@
                 
                         // Página de error 404   
                         default:
-                            include "modulos/"; // Ruta del archivo
+                            include "modulos/default/error404.php"; // Ruta del archivo
                             break;
                 
                     }

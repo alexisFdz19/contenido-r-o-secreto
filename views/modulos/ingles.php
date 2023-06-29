@@ -1,3 +1,151 @@
+<div class="container">
+
+    <div class="row">
+
+    <div class="col-12 col-lg-6">
+
+        <img src="<?php echo $url?>views/img/default/bienvenido-ing.png" class="imgBienvenidos">
+
+    </div>
+
+    <div class="col-12 col-lg-6">
+
+        <p style="text-align: justify;">Rio Secreto is a karst and hydrogeological system of semi-flooded caves located in the Riviera Maya, just 10 minutes from Playa del Carmen. Our mission is to transform our visitors through a unique journey into the bowels of the Earth.</p>
+        <br>
+
+    </div>
+
+    <div>
+
+</div>
+
+<div class="container containerAlbum">
+
+    <!-- Grid row -->
+    <div class="container">
+
+    <div class="row">
+    
+
+        <!-- Grid column -->
+        <!--<div class="col-12 d-flex justify-content-center mb-5 divMenuLarge">
+    
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="all">Todo</button>
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="1">Río Secreto Clásico</button>
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="2">Río Secreto Plus</button>
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="3">Río Secreto Wild</button>
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="4">Río Secreto - Tulum</button>
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Privilege</button>
+        
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Video</button> 
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Materiales</button> 
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Centinelas del Agua A.C.</button> 
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Facturación</button> 
+
+        <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Privilege</button> 
+    
+        </div>-->
+
+
+        <!-- Menú para dispositivos móviles -->
+
+        <div class="col-md-12 divMenuXS" id="divMenuXS">
+
+        <div class="dropdown">
+
+            <button class="btn btn-info dropdown-toggle botonFiltro" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 100%">
+            Choose the product
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+            <ul class="gallery_filter list">
+
+                <li data-filter=".ap"><a class="botonFiltroCL dropdown-item" href="">Classic</a></li>
+
+                <li data-filter=".ap1"><a class="botonFiltroPL dropdown-item" href="">Plus</a></li>
+
+                <li data-filter=".ap2"><a class="botonFiltroWL dropdown-item" href="">Wild</a></li>
+
+                <li data-filter=".ap3"><a class="botonFiltroTU dropdown-item" href="">RS Tulum</a></li>
+
+                <li data-filter=".ap9"><a class="botonFiltroTUP dropdown-item" href="">RS Tulum Plus</a></li>
+
+                <li data-filter=".ap10"><a class="botonFiltroCOB dropdown-item" href="">RS Cobá</a></li>
+
+                <li data-filter=".ap4"><a class="botonFiltroPR dropdown-item" href="">Privilege</a></li>
+
+                <li data-filter=".ap5"><a class="botonFiltroGB dropdown-item" href="">Groups</a></li>
+
+                <li data-filter=".ap6"><a class="botonFiltroMA dropdown-item" href="">General Materials</a></li>
+
+                <!--<li data-filter=".ap7"><a class="botonFiltro dropdown-item" href="#">Asociaciones</a></li>-->
+
+                <li data-filter=".ap8"><a class="botonFiltroWA dropdown-item" href="">Wallpapers</a></li>
+
+            </ul>
+            
+            </div>
+
+        </div>
+
+        </div>
+
+        <!-- Termina el menú de dispositivos móviles -->
+    
+    </div>
+
+    </div>
+    
+    <section class="home_gallery_area seccionAlbum">
+
+    <!-- Menú para escritorio -->
+
+    <div class="container divMenuLarge">
+
+        <div class="isotope_fillter">
+
+        <ul class="gallery_filter list">
+
+            <li class="active" data-filter=".ap" class="botonFiltro"><a class="botonFiltroCL" href="#">Classic</a></li>
+
+            <li data-filter=".ap1" class="botonFiltro"><a class="botonFiltroPL" href="">Plus</a></li>
+
+            <li data-filter=".ap2" class="botonFiltro"><a class="botonFiltroWL" href="">Wild</a></li>
+
+            <li data-filter=".ap3" class="botonFiltro"><a class="botonFiltroTU" href="">RS Tulum</a></li>
+
+            <li data-filter=".ap9" class="botonFiltro"><a class="botonFiltroTUP" href="">RS Tulum Plus</a></li>
+
+            <li data-filter=".ap10" class="botonFiltro"><a class="botonFiltroCOB" href="">RS Cobá</a></li>
+
+            <li data-filter=".ap4" class="botonFiltro"><a class="botonFiltroPR" href="">Privilege</a></li>
+
+            <li data-filter=".ap5" class="botonFiltro"><a class="botonFiltroGB" href="">Groups</a></li>
+
+            <li data-filter=".ap6" class="botonFiltro"><a class="botonFiltroMA" href="">General Materials</a></li>
+
+            <!--<li data-filter=".ap7"><a class="botonFiltro" href="#">Jaguar Wildlife Center</a></li>-->
+
+            <li data-filter=".ap8" class="botonFiltro"><a class="botonFiltroWA" href="">Wallpapers</a></li>
+
+        </ul>
+
+        </div>
+
+    </div>
+
+<div class="container box_1620" data-filter=".ap1">
+
+
 <div class="container box_1620" data-filter=".ap1">
 
     <div class="gallery_f_inner row imageGallery1">
