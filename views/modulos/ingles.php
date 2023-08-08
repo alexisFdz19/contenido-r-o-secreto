@@ -1733,7 +1733,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-wild.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-wild-ingles.jpg"><i class="fas fa-expand"><br><br><h4>Río Secreto Wild Descriptive</h4></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-wild-ingles.jpeg"><i class="fas fa-expand"><br><br><h4>Río Secreto Wild Descriptive</h4></i></a>
             </div>
             </div>
         </div>
