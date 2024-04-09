@@ -121,6 +121,10 @@
                             case 'eng':
                                 include "modulos/ingles.php"; // Ruta del archivo de la página
                                 break;
+
+                            case 'eng':
+                                include "modulos/ingles.php"; // Ruta del archivo de la página
+                                break;
                             
                             // Página de error 404   
                             default:

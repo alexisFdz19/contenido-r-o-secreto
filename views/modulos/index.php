@@ -1701,7 +1701,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-wild-y-tulum.jpg" alt="">
             <div class="hover">
                 <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-wild-tulum-coba.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Riviera Maya: RS Tulum, RS Wild y RS Cobá.</h4></i></a>    
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-wild-tulum-coba.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Riviera Maya: RS Tulum, RS Wild y RS Cobá.</h4></i></a>    
             </div>
             </div>
         </div>
