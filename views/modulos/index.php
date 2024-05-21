@@ -174,9 +174,10 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-clasico.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Clásico</h4></i></a>
             </div>
             </div>
         </div>
@@ -382,18 +383,19 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-plus.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Plus</h4></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-diptico-rio-secreto-plus.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-cuadriptico-rio-secreto.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/tripticos/diptico-rio-secreto-plus.pdf" target="blank"><h4>Díptico</h4></a>
+                <a href="<?php echo $url?>views/img/contenido/Materiales/tripticos/cuadriptico-rio-secreto.pdf" target="blank"><h4>Cuadríptico</h4></a>
             </div>
             </div>
         </div>
@@ -619,6 +621,16 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap2 oculto">
             <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-wild.jpg" alt="">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-wild-espanol.jpeg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Wild</h4></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap2 oculto">
+            <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-diptico-rio-secreto-wild.jpg" alt="">
             <div class="hover">
                 <a href="<?php echo $url?>views/img/contenido/Materiales/tripticos/diptico-rio-secreto-wild.pdf" target="blank"><h4>Díptico</h4></a>
@@ -808,9 +820,10 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap3 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto-tulum.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-tulum.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto-tulum.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-tulum-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto & Tulum</h4></i></a>
             </div>
             </div>
         </div>
@@ -987,9 +1000,10 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto-tulum-plus.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-tulum-plus.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto-tulum-plus.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-tulum-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto & Tulum Plus</h4></i></a>
             </div>
             </div>
         </div>
@@ -1156,9 +1170,10 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap10 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto-coba.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-coba.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto-coba-ingles.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-coba-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Cobá</h4></i></a>
             </div>
             </div>
         </div>
@@ -1315,9 +1330,29 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap4 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-mica-rio-secreto-privilege.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-privilege.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/micas/mica-rio-secreto-privilege.pdf" target="blank"><h4>Mica</h4></a>
+                <a href="#"></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-privilege-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Privilege By Río Secreto</h4></i></a>    
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap4 oculto">
+            <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-brochure-privilege.jpg" alt="">
+            <div class="hover">
+                <a href="<?php echo $url?>views/img/contenido/Materiales/brochures/brochure-rio-secreto-privilege-espanol.pdf" target="blank"><h4>Brochure Privilege By Río Secreto</h4></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap4 oculto">
+            <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-menu-rio-secreto-privilege.jpg" alt="">
+            <div class="hover">
+                <a href="#"></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/menus/menu-rio-secreto-privilege-espanol.png"><i class="fas fa-expand"><br><br><h4>Menú Río Secreto Privilege - Español</h4></i></a>    
             </div>
             </div>
         </div>
@@ -1659,15 +1694,6 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-brochure-privilege.jpg" alt="">
-            <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/brochures/brochure-rio-secreto-privilege-espanol.pdf" target="blank"><h4>Brochure Río Secreto Privilege</h4></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-cancun-rio-secreto-clasico-y-plus.jpg" alt="">
             <div class="hover">
                 <a href="#"></a>
@@ -1712,86 +1738,6 @@
             <div class="hover">
                 <a href="#"></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-tulum-rio-secreto.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Tulum</h4></i></a>    
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-clasico.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Clásico</h4></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-plus.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Plus</h4></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-wild.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-wild-espanol.jpeg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Wild</h4></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-tulum.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-tulum-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto & Tulum</h4></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-tulum-plus.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-tulum-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto & Tulum Plus</h4></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-coba.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-coba-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Cobá</h4></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-privilege.jpg" alt="">
-            <div class="hover">
-                <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-privilege-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto Privilege</h4></i></a>    
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-menu-rio-secreto-privilege.jpg" alt="">
-            <div class="hover">
-                <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/menus/menu-rio-secreto-privilege-espanol.png"><i class="fas fa-expand"><br><br><h4>Menú Río Secreto Privilege - Español</h4></i></a>    
             </div>
             </div>
         </div>

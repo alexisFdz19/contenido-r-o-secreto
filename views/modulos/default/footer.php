@@ -149,7 +149,7 @@
 
     <div class="col-12">
 
-      <img loading="lazy" class="img-fluid logosFinal" src="<?php echo $url?>views/img/default/logos-footer-color.png" alt="Card image cap">
+      <img loading="lazy" class="img-fluid logosFinal" src="<?php echo $url?>views/img/default/footer-certificaciones.jpg" alt="Card image cap">
       
     </div>
 
@@ -169,7 +169,7 @@
 
     <div class="container">
 
-      <span class="tituloFooter">© Copyright 2023 | Río Secreto S.A. de C.V.</span>
+      <span class="tituloFooter">© Copyright 2024 | Río Secreto </span>
 
     </div>
 
