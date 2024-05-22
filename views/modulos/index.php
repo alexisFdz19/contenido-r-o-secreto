@@ -515,7 +515,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-13.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-13.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="https://www.dropbox.com/scl/fi/hxotxy838d6oe228zr6j1/Rio-Secreto-Plus-13.jpg?rlkey=3xyxo5ko61v1ohspvitf6qcnz&st=82d6m76p&dl=1"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
@@ -525,7 +525,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-14.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-14.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="https://www.dropbox.com/scl/fi/l1hzxgtwwrsim7p7m5y4g/Rio-Secreto-Plus-14.jpg?rlkey=j0hgcomatxxvukrv9fmdgiys7&st=5zx4kzdb&dl=1"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
@@ -535,7 +535,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-15.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-15.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="https://www.dropbox.com/scl/fi/0xjq3a7dat3v8ypo39c6x/Rio-Secreto-Plus-15.jpg?rlkey=3yjqbjl2k67m0lc7ypnepehxq&st=6knyagy2&dl=1"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
@@ -545,7 +545,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-16.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-16.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="https://www.dropbox.com/scl/fi/gplpjphhozi15hc418b5v/Rio-Secreto-Plus-16.jpg?rlkey=ymk00kvt22mb2rorbb7xvavvn&st=7od9p08s&dl=1"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
@@ -555,7 +555,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-17.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-17.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="https://www.dropbox.com/scl/fi/lhkg9vwm16hg4y8oxtdys/Rio-Secreto-Plus-17.jpg?rlkey=rjpe4j2cxfcb7nixeq3wfr0da&st=rn54d1u7&dl=1"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
@@ -565,17 +565,7 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-18.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-18.jpg"><i class="fas fa-expand"></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" width="50" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-12.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="https://www.dropbox.com/scl/fi/ah4mc0l2scrf1ykhxe2hj/Rio-Secreto-Plus-12.jpg?rlkey=wrbhftqa9q0poofiao9787n92&st=g9hwcn0k&dl=1"><i class="fas fa-expand"></i></a>
+                <a class="light" href="https://www.dropbox.com/scl/fi/y1i6b5phrqmjcm5mdbd45/Rio-Secreto-Plus-18.jpg?rlkey=6difz1hpaby08l7q5wbpeemj5&st=o6wnm5gz&dl=1"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
