@@ -1669,6 +1669,15 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-engargolado-rio-secreto.jpg" alt="">
+            <div class="hover">
+                <a href="<?php echo $url?>views/img/contenido/Materiales/brochures/kit-de-prensa-rio-secreto-espanol.pdf" target="blank"><h4>Brochure Río Secreto</h4></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
+            <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-kit-de-prensa.jpg" alt="">
             <div class="hover">
                 <a href="<?php echo $url?>views/img/contenido/Materiales/brochures/kit-de-prensa-rio-secreto-ingles.pdf" target="blank"><h4>Press Kit</h4></a>

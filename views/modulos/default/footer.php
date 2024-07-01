@@ -114,7 +114,7 @@
 
     <div class="col-6 col-xs-6 col-md-3 col-lg-3">
 
-      <img loading="lazy" class="img-fluid logosFinalT" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Logo/logo-rio-secreto-tulum-low.png" alt="Card image cap">
+      <img loading="lazy" class="img-fluid logosFinalT" src="<?php echo $url?>views/img/contenido/SaltySweet/Logo/S&S-logo-azul-fuerte-low.png" alt="Card image cap">
 
     </div>
 

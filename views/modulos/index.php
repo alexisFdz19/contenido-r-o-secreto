@@ -77,7 +77,7 @@
 
                     <li data-filter=".ap3"><a class="botonFiltroTU dropdown-item" href="">RS Tulum</a></li>
 
-                    <li data-filter=".ap9"><a class="botonFiltroTUP dropdown-item" href="">RS Tulum Plus</a></li>
+                    <li data-filter=".ap9"><a class="botonFiltroTUP dropdown-item" href="">Salty & Sweet</a></li>
 
                     <li data-filter=".ap10"><a class="botonFiltroCOB dropdown-item" href="">RS Cobá</a></li>
 
@@ -123,7 +123,7 @@
 
                 <li data-filter=".ap3" class="botonFiltro"><a class="botonFiltroTU" href="">RS Tulum</a></li>
 
-                <li data-filter=".ap9" class="botonFiltro"><a class="botonFiltroTUP" href="">RS Tulum Plus</a></li>
+                <li data-filter=".ap9" class="botonFiltro"><a class="botonFiltroTUP" href="">Salty & Sweet</a></li>
 
                 <li data-filter=".ap10" class="botonFiltro"><a class="botonFiltroCOB" href="">RS Cobá</a></li>
 
@@ -383,6 +383,16 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-ficha-rio-secreto-plus.jpg" alt="">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/fichas/ficha-tirolesas-rio-secreto-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Características tirolesas</h4></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
+            <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-plus.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
@@ -441,8 +451,8 @@
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-5.jpg" alt="">
+            <div class="h_gallery_item" style="display: flex; justify-content: center;">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-5.jpg" alt="" style="width: 45%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-5.jpg"><i class="fas fa-expand"></i></a>
@@ -451,8 +461,8 @@
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-6.jpg" alt="">
+            <div class="h_gallery_item" style="display: flex; justify-content: center;">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-6.jpg" alt="" style="width: 45%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-6.jpg"><i class="fas fa-expand"></i></a>
@@ -472,7 +482,7 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-8.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-8.jpg" alt="" style="width: 98%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-8.jpg"><i class="fas fa-expand"></i></a>
@@ -482,7 +492,7 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-9.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-9.jpg" alt="" style="width: 110%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-9.jpg"><i class="fas fa-expand"></i></a>
@@ -491,8 +501,8 @@
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-10.jpg" alt="">
+            <div class="h_gallery_item" style="display: flex; justify-content: center;">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-10.jpg" alt="" style="width: 50%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-10.jpg"><i class="fas fa-expand"></i></a>
@@ -501,8 +511,8 @@
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-11.jpg" alt="">
+            <div class="h_gallery_item" style="display: flex; justify-content: center;">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-11.jpg" alt="" style="width: 50%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-11.jpg"><i class="fas fa-expand"></i></a>
@@ -542,7 +552,7 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-15.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-15.jpg" alt="" style="width: 90%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/RS Plus/Fotos/Rio-Secreto-Plus-15.jpg"><i class="fas fa-expand"></i></a>
@@ -580,11 +590,11 @@
             </div>
         </div>
 
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
+        <!--<div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">              
             <div class="youtube-player" data-id="bliOG49Ru9A"></div>
             </div>
-        </div>
+        </div>-->
 
         <!--=============================================
             =            Wild          =
@@ -975,15 +985,15 @@
         </div>
 
         <!--=============================================
-            =            Tulum Plus          =
+        =            Salty & Sweet By Río Secreto       =
         =============================================-->
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-logo-rio-secreto-tulum-plus.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-logo-salty-sweet.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Logo/logo-rio-secreto-tulum.png"><i class="fas fa-expand"><br><br><h4>Logo</h4></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Logo/S&S-logo-azul-fuerte.png"><i class="fas fa-expand"><br><br><h4>Logo</h4></i></a>
             </div>
             </div>
         </div>
@@ -1000,149 +1010,119 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-tulum-plus.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-salty-sweet.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-rio-secreto-tulum-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Río Secreto & Tulum Plus</h4></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/descriptivos/descriptivo-salty-sweet-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Descriptivo Salty & Sweet By Río Secreto</h4></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
+            <div class="h_gallery_item" style="display: flex; justify-content: center;">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-1.jpg" alt="" style="width: 42%;">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-1.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-1.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-2.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-1.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-2.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-2.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-3.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-2.jpg"><i class="fas fa-expand"></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-3.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-3.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-3.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
         
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-4.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-4.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-4.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-4.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-5.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-5.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-5.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-5.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-6.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-6.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-6.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-6.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-7.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-7.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-7.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-7.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-8.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-8.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-8.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-8.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-9.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-9.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-9.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-9.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-10.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-10.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-10.jpg"><i class="fas fa-expand"></i></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-10.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
 
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-11.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-11.jpg"><i class="fas fa-expand"></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-12.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-12.jpg"><i class="fas fa-expand"></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-13.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/RS Tulum Plus/Fotos/rio-secreto-tulum-13.jpg"><i class="fas fa-expand"></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
+        <!--<div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">         
             <div class="youtube-player" data-id="k1No-OroVXI"></div>
             </div>
-        </div>
+        </div>-->
 
         <!--=============================================
             =            Cobá          =
@@ -1499,7 +1479,7 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap4 oculto">
             <div class="h_gallery_item">              
-            <div class="youtube-player" data-id="k77aS3gZkMc"></div>
+            <div class="youtube-player" data-id="5TtBi641yKc"></div>
             </div>
         </div>
 
@@ -1652,6 +1632,15 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-acordeon-de-productos-rio-secreto.jpg" alt="">
             <div class="hover">
                 <a href="<?php echo $url?>views/img/contenido/Materiales/acordeon/Acordeon-tours-rio-secreto.pdf" target="blank"><h4>Nuestros tours</h4></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
+            <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-engargolado-rio-secreto.jpg" alt="">
+            <div class="hover">
+                <a href="<?php echo $url?>views/img/contenido/Materiales/engargolado/engarlogado-rio-secreto-2024.pdf" target="blank"><h4>Engargolado Río Secreto</h4></a>
             </div>
             </div>
         </div>
