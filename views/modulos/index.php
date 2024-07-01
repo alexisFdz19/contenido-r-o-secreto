@@ -1000,16 +1000,6 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-ficha-rio-secreto-tulum-plus.jpg" alt="">
-            <div class="hover">
-                <a href="#"><h4></h4></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/fichas/ficha-rio-secreto-tulum-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Ficha</h4></i></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
-            <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-salty-sweet.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
