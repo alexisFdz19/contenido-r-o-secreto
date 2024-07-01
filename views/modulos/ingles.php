@@ -385,6 +385,16 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
             <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-ficha-rio-secreto-plus.jpg" alt="">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/fichas/ficha-tirolesas-rio-secreto-plus-espanol.jpg"><i class="fas fa-expand"><br><br><h4>Zip Lines characteristics</h4></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
+            <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-descriptivo-rio-secreto-plus.jpg" alt="">
             <div class="hover">
                 <a href="#"><h4></h4></a>
@@ -398,15 +408,6 @@
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-cuadriptico-rio-secreto.jpg" alt="">
             <div class="hover">
                 <a href="<?php echo $url?>views/img/contenido/Materiales/tripticos/cuadriptico-rio-secreto.pdf" target="blank"><h4>Flyer</h4></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap1 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-diptico-rio-secreto-plus.jpg" alt="">
-            <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/tripticos/diptico-rio-secreto-plus.pdf" target="blank"><h4>Flyer</h4></a>
             </div>
             </div>
         </div>
