@@ -1,3 +1,10 @@
+<?php
+
+    // Detectar si estamos en la versión en inglés
+    $isEnglish = strpos($_SERVER['REQUEST_URI'], '/eng') !== false;
+
+?>
+
 <br>
 
 <hr class="hrFinal">
@@ -6,7 +13,15 @@
 
     <div class="row">
 
-      <span class="tituloPreFooter">Visita nuestros sitios:</span>
+    <?php if ($isEnglish): ?>
+
+      <span class="tituloPreFooter">Visit our other web sites:</span>
+    
+    <?php else: ?>
+
+      <span class="tituloPreFooter">Visita nuestros otros sitios:</span>
+
+    <?php endif; ?>
 
     </div>
       
@@ -17,7 +32,16 @@
         <ul class="list-inline listaSitios">
 
           <!--<li class="list-inline-item sitiosWeb"><a href="http://www.riosecretomexico.com.mx/" target="_blank" style="color: grey;">Río Secreto | Sitio Oficial</a></li>/-->
-          <li class="list-inline-item sitiosWeb"><a href="http://blog.riosecreto.com/" target="_blank" style="color: grey;"> Blog Río Secreto</a></li>
+
+          <?php if ($isEnglish): ?>
+
+            <li class="list-inline-item sitiosWeb"><a href="http://blog.riosecreto.com/" target="_blank" style="color: grey;">Río Secreto Blog</a></li>
+
+          <?php else: ?>
+
+            <li class="list-inline-item sitiosWeb"><a href="http://blog.riosecreto.com/" target="_blank" style="color: grey;">Blog Río Secreto</a></li>
+
+          <?php endif; ?>
 
         </ul>
 

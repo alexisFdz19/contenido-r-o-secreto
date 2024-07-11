@@ -1,59 +1,9 @@
-    <div class="container">
-
-        <div class="row">
-
-        <div class="col-12 col-lg-6">
-
-            <img src="<?php echo $url?>views/img/default/bienvenido-esp.png" class="imgBienvenidos">
-
-        </div>
-
-        <div class="col-12 col-lg-6">
-
-            <p style="text-align: justify;">Río Secreto es un sistema kárstico e hidrogeológico, de cuevas semi inundadas ubicado en la Riviera Maya, a solo 10 minutos de Playa del Carmen. Nuestra misión es transformar a nuestros visitantes a través de un viaje único hacia las entrañas de la Tierra.</p>
-            <br>
-
-        </div>
-
-        <div>
-
-    </div>
-
     <div class="container containerAlbum">
 
         <!-- Grid row -->
         <div class="container">
 
         <div class="row">
-        
-
-            <!-- Grid column -->
-            <!--<div class="col-12 d-flex justify-content-center mb-5 divMenuLarge">
-        
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="all">Todo</button>
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="1">Río Secreto Clásico</button>
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="2">Río Secreto Plus</button>
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="3">Río Secreto Wild</button>
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="4">Río Secreto - Tulum</button>
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Privilege</button>
-            
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Video</button> 
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Materiales</button> 
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Centinelas del Agua A.C.</button> 
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Facturación</button> 
-
-            <button type="button" class="btn btn-light filter btnAlbum" data-rel="5">Privilege</button> 
-        
-            </div>-->
-
 
             <!-- Menú para dispositivos móviles -->
 
@@ -143,8 +93,9 @@
 
         </div>
 
-    <div class="container box_1620" data-filter=".ap1">
+        <!-- Termina Menú para escritorio -->
 
+    <div class="container box_1620" data-filter=".ap1">
 
     <div class="gallery_f_inner row imageGallery1">
 

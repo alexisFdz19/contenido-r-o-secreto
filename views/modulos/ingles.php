@@ -1,24 +1,3 @@
-<div class="container">
-
-    <div class="row">
-
-    <div class="col-12 col-lg-6">
-
-        <img src="<?php echo $url?>views/img/default/bienvenido-ing.png" class="imgBienvenidos">
-
-    </div>
-
-    <div class="col-12 col-lg-6">
-
-        <p style="text-align: justify;">Rio Secreto is a karst and hydrogeological system of semi-flooded caves located in the Riviera Maya, just 10 minutes from Playa del Carmen. Our mission is to transform our visitors through a unique journey into the bowels of the Earth.</p>
-        <br>
-
-    </div>
-
-    <div>
-
-</div>
-
 <div class="container containerAlbum">
 
     <!-- Grid row -->
