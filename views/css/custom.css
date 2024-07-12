@@ -358,6 +358,10 @@
 
 }
 
+/*------------------------------------*\
+	Estilos popup noticias
+\*------------------------------------*/
+
 /* Estilos para la burbuja flotante */
 .news-bubble {
     position: fixed;
@@ -479,6 +483,11 @@
 }
 
 
+/*------------------------------------*\
+	Estilos formulario noticias
+\*------------------------------------*/
+
+
 .container {
     text-align: center;
 }
@@ -532,6 +541,81 @@
     background-color: #45a049;
 }
 
+/*------------------------------------*\
+	Estilos administrar noticias
+\*------------------------------------*/
+
+.tabs {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.tablink {
+    background-color: #f2f2f2;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.tablink.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
+/* Estilos para la tabla de noticias */
+.noticias-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.noticias-table th, .noticias-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.noticias-table th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para los botones de editar y eliminar */
+.btn-edit, .btn-delete {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #f0ad4e; /* Amarillo */
+}
+
+.btn-delete {
+    background-color: #d9534f; /* Rojo */
+}
+
+.btn-edit:hover, .btn-delete:hover {
+    background-color: #e0e0e0; /* Cambio de color al pasar el ratón */
+    border-color: #adadad;
+}
 
 
 /*------------------------------------*\
