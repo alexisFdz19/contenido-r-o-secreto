@@ -125,6 +125,10 @@
                             case 'eng':
                                 include "modulos/ingles.php"; // Ruta del archivo de la página
                                 break;
+
+                            case 'agregar-noticia':
+                                include "modulos/default/agregarnoticia.php"; // Ruta del archivo de la página
+                                break;
                             
                             // Página de error 404   
                             default:

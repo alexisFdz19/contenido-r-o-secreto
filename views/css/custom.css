@@ -479,6 +479,61 @@
 }
 
 
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    margin-top: 20px; /* Espacio superior adicional */
+}
+
+.form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form input[type="text"],
+.form textarea,
+.form input[type="file"],
+.form input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+
+
 /*------------------------------------*\
 	Videos insertados de YouTube
 \*------------------------------------*/
