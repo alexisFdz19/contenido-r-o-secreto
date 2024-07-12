@@ -358,6 +358,127 @@
 
 }
 
+/* Estilos para la burbuja flotante */
+.news-bubble {
+    position: fixed;
+    bottom: 90px; /* Ajustar aquí la posición vertical */
+    right: 20px;
+    background-color: #fc4b08; /* Color de fondo */
+    color: white;
+    width: 60px; /* Ancho de la burbuja pequeña */
+    height: 60px; /* Altura de la burbuja pequeña */
+    border-radius: 50%; /* Forma redondeada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave */
+    z-index: 1000;
+}
+
+.news-bubble i {
+    font-size: 24px; /* Tamaño del icono */
+}
+
+.bubble-text {
+    display: none;
+    position: absolute;
+    bottom: -30px;
+    left: -80px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.bubble-tooltip {
+    display: none;
+    position: absolute;
+    top: 50%;
+    Right: 120%;
+    background-color: rgba(255, 157, 30, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: translateY(-50%);
+}
+
+/* Estilos para el pop-up completo */
+.news-popup {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    z-index: 1001;
+}
+
+.news-popup-content {
+    padding: 20px;
+}
+
+.news-popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Animaciones */
+.news-bubble:hover {
+    transform: scale(1.1); /* Escalar al hacer hover */
+}
+
+.news-bubble.active {
+    width: 300px; /* Ancho de la burbuja grande */
+    height: auto; /* Altura de la burbuja grande */
+    border-radius: 10px; /* Redondear esquinas */
+    background-color: #007bff; /* Color de fondo */
+    transition: all 0.3s ease;
+}
+
+.news-bubble.active .bubble-text,
+.news-bubble.active .bubble-tooltip {
+    display: block;
+    opacity: 1;
+}
+
+.news-content img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.news-navigation span {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.news-navigation span:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+}
+
+
 /*------------------------------------*\
 	Videos insertados de YouTube
 \*------------------------------------*/

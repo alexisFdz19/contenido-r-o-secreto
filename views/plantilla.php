@@ -215,6 +215,12 @@
                 } */
 
             /*=============================================
+            =            Burbuja de promociones          =
+            =============================================*/
+
+            include "modulos/default/news_popup.php"; // Ruta del archivo
+
+            /*=============================================
             =            Footer          =
             =============================================*/
 
@@ -237,6 +243,7 @@
 <script src="<?php echo $url?>views/js/backtotop.js"></script>
 <script src="<?php echo $url?>views/js/mostrarFotos.js"></script>
 <script src="<?php echo $url?>views/js/embebedYouTube.js"></script>
+<script src="<?php echo $url?>views/js/news_popup.js"></script>
 
 <!-- Galeria -->
 <script src="<?php echo $url?>views/galeria/js/stellar.js"></script>
