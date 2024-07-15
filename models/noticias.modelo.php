@@ -51,5 +51,13 @@ class ModeloNoticias {
         }
     }
 
+    // Función para obtener una noticia por su ID
+    public static function obtenerNoticiaPorId($id) {
+        $stmt = Conexion::conectar()->prepare("SELECT * FROM noticias WHERE id = :id");
+        $stmt->bindParam(":id", $id, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
 }
 ?>
