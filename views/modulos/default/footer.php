@@ -71,9 +71,9 @@
             
             </a>
 
-            <a href="https://twitter.com/riosecreto" target="_blank">
+            <a href="https://x.com/riosecreto" target="_blank">
             
-              <img loading="lazy" src="<?php echo $url?>views/img/default/twitter.png" width="8%">                    
+              <img loading="lazy" src="<?php echo $url?>views/img/default/x.png" width="7.5%">                    
             
             </a>
 
