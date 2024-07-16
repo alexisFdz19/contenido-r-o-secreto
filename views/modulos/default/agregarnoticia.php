@@ -51,7 +51,7 @@
                     echo "<td>" . $noticia['titulo'] . "</td>";
                     echo "<td>" . $noticia['descripcion'] . "</td>";
                     echo "<td><img src='" . $url . $noticia['imagen'] . "' alt='" . $noticia['titulo'] . "' style='max-width: 100px; max-height: 100px;'></td>";
-                    echo "<td><button onclick='openEditModal(" . json_encode($noticia) . ")'>Editar</button> | <button onclick='deleteNoticia(" . $noticia['id'] . ")'>Eliminar</button></td>";
+                    echo "<td><button class='btn-editar' onclick='openEditModal(" . json_encode($noticia) . ")'>Editar</button> | <button class='btn-eliminar' onclick='deleteNoticia(" . $noticia['id'] . ")'>Eliminar</button></td>";
                     echo "</tr>";
                 }
                 ?>
@@ -78,7 +78,7 @@
                 <input type="date" id="editFecha" name="fecha" required><br><br>
 
                 <input type="submit" value="Guardar Cambios" class="btn-submit">
-                <button type="button" onclick="closeEditModal()">Cancelar</button>
+                <button type="button" class="btn-cancelar" onclick="closeEditModal()">Cancelar</button>
             </form>
         </div>
     </div>
