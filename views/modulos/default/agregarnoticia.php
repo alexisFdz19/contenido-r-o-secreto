@@ -121,9 +121,10 @@
     // Función para eliminar una noticia
     function deleteNoticia(id) {
         if (confirm("¿Estás seguro de que deseas eliminar esta noticia?")) {
-            window.location.href = "eliminarnoticia.php?id=" + id;
+            window.location.href = "eliminar-noticia?id=" + id;
         }
     }
 </script>
+
 
 

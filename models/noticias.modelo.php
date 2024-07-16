@@ -26,14 +26,17 @@ class ModeloNoticias {
     }
 
     // Función para eliminar una noticia
-    public static function eliminarNoticia($id) {
+        public static function eliminarNoticia($id) {
         $stmt = Conexion::conectar()->prepare("DELETE FROM noticias WHERE id = :id");
         $stmt->bindParam(":id", $id, PDO::PARAM_INT);
+    
         if ($stmt->execute()) {
             return "ok";
         } else {
             return "error";
         }
+    
+        $stmt = null;
     }
 
     // Función para editar una noticia

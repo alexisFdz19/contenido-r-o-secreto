@@ -124,16 +124,16 @@
                                     include "modulos/ingles.php"; // Ruta del archivo de la página
                                     break;
 
-                                case 'eng':
-                                    include "modulos/ingles.php"; // Ruta del archivo de la página
-                                    break;
-
                                 case 'agregar-noticia':
                                     include "modulos/default/agregarnoticia.php"; // Ruta del archivo de la página
                                     break;
 
                                 case 'editar-noticia':
-                                    include "modulos/default/editarnoticia.php"; // Asegúrate de tener un archivo editarnoticia.php en la ubicación correcta
+                                    include "modulos/default/editarnoticia.php"; // Archivo que procesa la edición de la noticia al modelo, no se muestra como tal en las vistas de la página
+                                    break;
+
+                                case 'eliminar-noticia':
+                                    include "modulos/default/eliminarnoticia.php"; // Archivo que procesa la eliminación de la noticia al modelo, no se muestra como tal en las vistas de la página
                                     break;
                                 
                                 // Página de error 404   
