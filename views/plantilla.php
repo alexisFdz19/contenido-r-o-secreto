@@ -135,6 +135,10 @@
                                 case 'eliminar-noticia':
                                     include "modulos/default/eliminarnoticia.php"; // Archivo que procesa la eliminación de la noticia al modelo, no se muestra como tal en las vistas de la página
                                     break;
+
+                                case 'guardar-noticia':
+                                    include "modulos/default/guardarnoticia.php"; // Archivo que procesa la adición de la noticia al modelo, no se muestra como tal en las vistas de la página
+                                    break;
                                 
                                 // Página de error 404   
                                 default:

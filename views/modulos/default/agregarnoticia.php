@@ -7,9 +7,9 @@
         <button class="tablink" onclick="openTab(event, 'agregar')">Agregar Noticia</button>
     </div>
 
-    <!-- Contenido de las pestañas -->
+    <!-- Formulario para agregar noticia -->
     <div id="agregar" class="tabcontent" style="display:none;">
-        <form action="guardarnoticia.php" method="POST" enctype="multipart/form-data" class="form">
+        <form action="<?php echo $url?>guardar-noticia" method="POST" enctype="multipart/form-data" class="form">
             <label for="titulo">Título:</label><br>
             <input type="text" id="titulo" name="titulo" required><br><br>
 
@@ -25,6 +25,7 @@
             <input type="submit" value="Agregar Noticia" class="btn-submit">
         </form>
     </div>
+
 
     <div id="administrar" class="tabcontent">
         <table class="noticias-table">

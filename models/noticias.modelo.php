@@ -11,18 +11,22 @@ class ModeloNoticias {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    // Función para crear una nueva noticia
-    public static function crearNoticia($datos) {
-        $stmt = Conexion::conectar()->prepare("INSERT INTO noticias (titulo, descripcion, imagen, fecha_publicacion) VALUES (:titulo, :descripcion, :imagen, :fecha)");
-        $stmt->bindParam(":titulo", $datos['titulo'], PDO::PARAM_STR);
-        $stmt->bindParam(":descripcion", $datos['descripcion'], PDO::PARAM_STR);
-        $stmt->bindParam(":imagen", $datos['imagen'], PDO::PARAM_STR);
-        $stmt->bindParam(":fecha", $datos['fecha_publicacion'], PDO::PARAM_STR);
+    // Método para agregar una noticia
+    public static function agregarNoticia($datos) {
+        $stmt = Conexion::conectar()->prepare("INSERT INTO noticias (titulo, descripcion, imagen, fecha_publicacion) VALUES (:titulo, :descripcion, :imagen, :fecha_publicacion)");
+
+        $stmt->bindParam(":titulo", $datos["titulo"], PDO::PARAM_STR);
+        $stmt->bindParam(":descripcion", $datos["descripcion"], PDO::PARAM_STR);
+        $stmt->bindParam(":imagen", $datos["imagen"], PDO::PARAM_STR);
+        $stmt->bindParam(":fecha_publicacion", $datos["fecha_publicacion"], PDO::PARAM_STR);
+
         if ($stmt->execute()) {
             return "ok";
         } else {
             return "error";
         }
+
+        $stmt = null;
     }
 
     // Función para eliminar una noticia

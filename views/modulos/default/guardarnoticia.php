@@ -1,41 +1,52 @@
-<!-- guardarnoticia.php -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    require_once "models/noticias.modelo.php"; // Asegúrate de que el modelo de noticias esté incluido correctamente
 
+    // Obtener los datos del formulario
     $titulo = $_POST['titulo'];
     $descripcion = $_POST['descripcion'];
     $fecha = $_POST['fecha'];
 
-    // Subir imagen y obtener la ruta
-    $rutaImagen = subirImagen();
+    // Procesar la subida de la imagen
+    $rutaImagen = subirImagen(); // Implementa la función subirImagen() adecuadamente
 
-    // Guardar noticia en la base de datos
-    if (guardarNoticia($titulo, $descripcion, $rutaImagen, $fecha)) {
-        // Redireccionar a la página de noticias o donde sea necesario
-        header("Location: news_popup.php");
-        exit();
+    if ($rutaImagen !== null) {
+        // Preparar datos para insertar
+        $datos = [
+            'titulo' => $titulo,
+            'descripcion' => $descripcion,
+            'imagen' => $rutaImagen,
+            'fecha_publicacion' => $fecha
+        ];
+
+        // Llamar a la función para agregar la noticia en el modelo
+        $resultado = ModeloNoticias::agregarNoticia($datos);
+
+        if ($resultado === "ok") {
+            // Redireccionar a la página de administración de noticias
+            header("Location: {$url}agregar-noticia");
+            exit();
+        } else {
+            echo "Error al agregar la noticia.";
+        }
     } else {
-        echo "Error al guardar la noticia.";
+        echo "Error al subir la imagen.";
     }
 }
 
+// Función para subir una imagen
 function subirImagen() {
-    $target_dir = "img/noticias/";
+    $target_dir = "views/img/noticias/";
     $target_file = $target_dir . basename($_FILES["imagen"]["name"]);
     $uploadOk = 1;
     $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
-    // Verificar si el archivo de imagen es una imagen real o un archivo falso
-    if(isset($_POST["submit"])) {
-        $check = getimagesize($_FILES["imagen"]["tmp_name"]);
-        if($check !== false) {
-            echo "El archivo es una imagen - " . $check["mime"] . ".";
-            $uploadOk = 1;
-        } else {
-            echo "El archivo no es una imagen.";
-            $uploadOk = 0;
-        }
+    // Verificar si el archivo es una imagen real
+    $check = getimagesize($_FILES["imagen"]["tmp_name"]);
+    if ($check !== false) {
+        $uploadOk = 1;
+    } else {
+        echo "El archivo no es una imagen.";
+        $uploadOk = 0;
     }
 
     // Verificar si el archivo ya existe
@@ -46,28 +57,29 @@ function subirImagen() {
 
     // Verificar el tamaño del archivo
     if ($_FILES["imagen"]["size"] > 500000) {
-        echo "Lo siento, el archivo es demasiado grande.";
+        echo "Lo siento, tu archivo es demasiado grande.";
         $uploadOk = 0;
     }
 
     // Permitir ciertos formatos de archivo
-    if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-    && $imageFileType != "gif" ) {
-        echo "Lo siento, solo se permiten archivos JPG, JPEG, PNG & GIF.";
+    if ($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif") {
+        echo "Lo siento, solo se permiten archivos JPG, JPEG, PNG y GIF.";
         $uploadOk = 0;
     }
 
-    // Verificar si $uploadOk está configurado en 0 por un error
+    // Verificar si $uploadOk es 0 por un error
     if ($uploadOk == 0) {
         echo "Lo siento, tu archivo no fue subido.";
+        return null;
     // Si todo está bien, intenta subir el archivo
     } else {
         if (move_uploaded_file($_FILES["imagen"]["tmp_name"], $target_file)) {
-            echo "El archivo ". basename( $_FILES["imagen"]["name"]). " ha sido subido.";
             return $target_file;
         } else {
             echo "Lo siento, hubo un error al subir tu archivo.";
+            return null;
         }
     }
 }
 ?>
+
