@@ -267,50 +267,36 @@
 
 <!-- Colocación de todos los archivos/plugins de JS o JQuery -->
 
+<!-- Scripts de la sección tarjeta beneficios -->
 
-<?php
-// Detectar si estamos en la página "tarjeta-beneficios"
-$tarjetaBeneficios = strpos($_SERVER['REQUEST_URI'], '/tarjeta-beneficios') !== false;
+<script src="<?php echo $url; ?>views/js/tarjetabeneficios/jquery.js"></script>
+<script src="<?php echo $url; ?>views/js/tarjetabeneficios/plugins.js"></script>
+<script src="<?php echo $url; ?>views/js/tarjetabeneficios/jquery.main.js"></script>
+<div id="style-changer" data-src="style-changer.html"></div>
 
-if ($tarjetaBeneficios) {
-    // Scripts de la página "tarjeta-beneficios"
-    ?>
+<!-- Scripts de la app principal "imagenriosecreto" -->
 
-<!-- include jQuery -->
-    <script src="<?php echo $url; ?>views/js/tarjetabeneficios/jquery.js"></script>
-    <!-- include jQuery -->
-    <script src="<?php echo $url; ?>views/js/tarjetabeneficios/plugins.js"></script>
-    <!-- include jQuery -->
-    <script src="<?php echo $url; ?>views/js/tarjetabeneficios/jquery.main.js"></script>
-    <div id="style-changer" data-src="style-changer.html"></div>
-    <?php
-} else {
-    // Scripts de la página principal "index"
-    ?>
-    <script src="<?php echo $url; ?>views/js/jquery-3.3.1.min.js"></script>
-    <script src="<?php echo $url; ?>views/js/popper.min.js"></script>
-    <script src="<?php echo $url; ?>views/js/bootstrap.min.js"></script>
-    <script src="<?php echo $url; ?>views/js/script.js"></script>
-    <script src="<?php echo $url; ?>views/js/menu.js"></script>
-    <script src="<?php echo $url; ?>views/js/galeria.js"></script>
-    <script src="<?php echo $url; ?>views/js/backtotop.js"></script>
-    <script src="<?php echo $url; ?>views/js/mostrarFotos.js"></script>
-    <script src="<?php echo $url; ?>views/js/embebedYouTube.js"></script>
+<script src="<?php echo $url; ?>views/js/jquery-3.3.1.min.js"></script>
+<script src="<?php echo $url; ?>views/js/popper.min.js"></script>
+<script src="<?php echo $url; ?>views/js/bootstrap.min.js"></script>
+<script src="<?php echo $url; ?>views/js/script.js"></script>
+<script src="<?php echo $url; ?>views/js/menu.js"></script>
+<script src="<?php echo $url; ?>views/js/galeria.js"></script>
+<script src="<?php echo $url; ?>views/js/backtotop.js"></script>
+<script src="<?php echo $url; ?>views/js/mostrarFotos.js"></script>
+<script src="<?php echo $url; ?>views/js/embebedYouTube.js"></script>
 
-    <!-- Galeria -->
-    <script src="<?php echo $url; ?>views/galeria/js/stellar.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/vendors/lightbox/simpleLightbox.min.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/vendors/nice-select/js/jquery.nice-select.min.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/vendors/isotope/isotope-min.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/js/jquery.ajaxchimp.min.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/js/mail-script.js"></script>
-    <script src="<?php echo $url; ?>views/galeria/js/theme.js"></script>
-    <?php
-}
-?>
-
+<!-- Galeria -->
+ 
+<script src="<?php echo $url; ?>views/galeria/js/stellar.js"></script>
+<script src="<?php echo $url; ?>views/galeria/vendors/lightbox/simpleLightbox.min.js"></script>
+<script src="<?php echo $url; ?>views/galeria/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="<?php echo $url; ?>views/galeria/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="<?php echo $url; ?>views/galeria/vendors/isotope/isotope-min.js"></script>
+<script src="<?php echo $url; ?>views/galeria/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="<?php echo $url; ?>views/galeria/js/jquery.ajaxchimp.min.js"></script>
+<script src="<?php echo $url; ?>views/galeria/js/mail-script.js"></script>
+<script src="<?php echo $url; ?>views/galeria/js/theme.js"></script>
 
 <!-- Ejemplo: Colocar la variable de la ruta del proyecto ($url) en el href en todos los links para convertir en dinámicas todos los recursos a usar
 <script src="<?php echo $url?>views/js/jquery-1.11.2.min.js"></script> -->
