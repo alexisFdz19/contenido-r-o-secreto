@@ -92,6 +92,27 @@
 						<!-- offer holder of the page -->
 						<div class="offer-holder">
 
+
+							<!-- BOSTONS PIZZA -->
+
+							<!-- col of the page -->
+							<div class="col mar-bottom-xs restaurantes">
+								<div class="header">
+									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/bostons.jpg" alt="logo" class="img-responsive"></div>
+									<span class="offer">15% Off</span>
+								</div>
+								<strong class="heading6">
+									<stron style="color: #F58323; font-size: 20px;">15%</stron> de descuento en el total de la cuenta.<br class="hidden-xs">	
+								</strong>
+								<span class="sub-title">Av. Constituyentes esquina con Av. 115</span>
+								<div class="text-center">
+							<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
+								<time class="time" datetime="2017-02-03 20:00">Válido hasta enero de 2025.</time>
+								</div>
+							</div>
+
+							<!-- CUI -->
+
 							<!-- col of the page -->
 							<div class="col mar-bottom-xs salud">
 								
@@ -110,6 +131,25 @@
 								</div>
 							</div>
 
+							<!-- AH CACAO -->
+
+							<div class="col mar-bottom-xs restaurantes">
+								<div class="header">
+									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/ahcacao.jpg"
+											alt="logo" class="img-responsive"></div>
+									<span class="offer">10% Off</span>
+								</div>
+								<strong class="heading6">
+									Descuento del <stron style="color: #F58323; font-size: 20px;">10%</stron> en bebidas y postres preparados al momento y repostería.<br class="hidden-xs">
+								</strong>
+								<span class="sub-title"> Sucursales de Playa del Carmen, Q.Roo.</span>
+								<div class="text-center">
+									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta agosto de 2024.</time>
+								</div>
+							</div>
+
+							<!-- COLEGIO INGLÉS -->
 
 							<!-- col of the page -->
 							<div class="col mar-bottom-xs salud">
@@ -128,7 +168,6 @@
 								</div>
 							</div>
 
-
 							<!-- col of the page -->
 							<div class="col mar-bottom-xs salud">
 								<div class="header">
@@ -137,7 +176,7 @@
 									<span class="offer">15% OFF</span>
 								</div>
 								<strong class="heading6">
-									Nails room & beauty spa con descuento del <stron style="color: #F58323; font-size: 20px;">15%</stron> en cualquier servicio (no válido sobre otras promociones).
+									Nails & beauty spa. Descuento del <stron style="color: #F58323; font-size: 20px;">15%</stron> en cualquier servicio (no válido sobre otras promociones).
 								</strong>
 								<span class="sub-title"> Privada Roraima III, interior 101 A, Jardines de Mayakoba, 
 									Ciudad Mayakoba, Playa del Carmen, Q.R.</span>
@@ -164,23 +203,9 @@
 								</div>
 							</div>-->
 
-							<div class="col mar-bottom-xs restaurantes">
-								<div class="header">
-									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/ahcacao.jpg"
-											alt="logo" class="img-responsive"></div>
-									<span class="offer">10% Off</span>
-								</div>
-								<strong class="heading6">
-									Descuento del <stron style="color: #F58323; font-size: 20px;">10%</stron> en bebidas y postres preparados al momento y repostería.<br class="hidden-xs">
-								</strong>
-								<span class="sub-title"> Sucursales de Playa del Carmen, Q.Roo.</span>
-								<div class="text-center">
-									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta agosto de 2024.</time>
-								</div>
-							</div>
+							<!-- ULTRAMAR -->
 							
-							<div class="col mar-bottom-xs hteles">
+							<!--<div class="col mar-bottom-xs hteles">
 								<div class="header">
 									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/ultramar.jpg" alt="logo"
 											class="img-responsive"></div>
@@ -192,11 +217,11 @@
 								</strong>
 								<span class="sub-title"> Calle 1 Sur Bis Manzana 7 Lote 17, 77400 Playa del Carmen,
 									Q.R.</span>
-								<div class="text-center">
+								<div class="text-center">-->
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta Febrero de 2024.</time>
+									<!--<time class="time" datetime="2017-02-03 20:00">Válido hasta Febrero de 2024.</time>
 								</div>
-							</div>
+							</div>-->
 
 							<!-- DOCTORCITO -->
 
@@ -232,7 +257,7 @@
 									<span class="offer">15% OFF</span>
 								</div>
 								<strong class="heading6">
-									<stron style="color: #F58323; font-size: 20px;">15%</stron> en la cuenta total. <br
+									<stron style="color: #F58323; font-size: 20px;">15%</stron> el total de la cuenta. <br
 										class="hidden-xs">
 									<!--<stron style="color: #F58323; font-size: 20px;">15%</stron> en paquetes
 									preferenciales para celebración de cumpleaños. <br class="hidden-xs">-->
@@ -300,7 +325,7 @@
 									Maya</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta febrero de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta Agosto de 2024.</time>
 								</div>
 							</div>
 
@@ -326,7 +351,7 @@
 
 							<!-- PINSHES TACOS -->
 
-							<!-- col of the page -->
+							<!-- col of the pag
 							<div class="col mar-bottom-xs restaurantes">
 								<div class="header">
 									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/pinshistacos.jpg"
@@ -339,30 +364,31 @@
 								</strong>
 								<span class="sub-title">Avenida 28 de Julio entre Av Chemuyil y Calle Tulum, Col. Nueva
 									Creación.</span>
-								<div class="text-center">
-									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta junio de 2024.</time>
+								<div class="text-center">-->
+									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>
+									<time class="time" datetime="2017-02-03 20:00"></time>
 								</div>
-							</div>
+							</div>-->
 
+							<!-- 100% Natural -->
 
 							<!-- col of the page -->
-							<!--<div class="col mar-bottom-xs restaurantes">
+							<div class="col mar-bottom-xs restaurantes">
 								<div class="header">
-									<div class="c-logo"><img loading="lazy" src="images/logos/100natural.jpg" alt="logo"
+									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/100natural.jpg" alt="logo"
 											class="img-responsive"></div>
 									<span class="offer">15% Off</span>
 								</div>
 								<strong class="heading6">
-									<stron style="color: #F58323; font-size: 20px;"> 15% </stron>en la cuenta total
-									pagando en efectivo o 10% pagando<br class="hidden-xs"> con tarjeta.
+									<stron style="color: #F58323; font-size: 20px;"> 15% </stron>en el total de la cuenta
+									pagando en efectivo o <stron style="color: #F58323; font-size: 20px;">10%</stron> pagando con tarjeta.
 								</strong>
 								<span class="sub-title">5ta Avenida 209 entre 10 y 12.</span>
-								<div class="text-center">-->
+								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<!--<time class="time" datetime="2017-02-03 20:00">Válido hasta junio de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta junio de 2025.</time>
 								</div>
-							</div>-->
+							</div>
 
 							<!-- AMERIMED -->
 
@@ -374,7 +400,7 @@
 									<span class="offer">15% OFF</span>
 								</div>
 								<strong class="heading6">
-									En análisis de laboratorio, <br class="hidden-xs"> imagenología y hospitalización
+								<stron style="color: #F58323; font-size: 20px;">15%</stron> de descuento en análisis de laboratorio, imagenología y hospitalización
 									(sin honorarios ni medicamentos)
 								</strong>
 								<span class="sub-title">Carretera Federal Mz. 155 Lt. 3 entre 20 y 22 Colonia
@@ -469,22 +495,6 @@
 								</div>
 							</div>
 
-							<!-- col of the page -->
-							<div class="col mar-bottom-xs restaurantes">
-								<div class="header">
-									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/bostons.jpg" alt="logo" class="img-responsive"></div>
-									<span class="offer">15% Off</span>
-								</div>
-								<strong class="heading6">
-									<stron style="color: #F58323; font-size: 20px;">15%</stron> de descuento en tu cuenta<br class="hidden-xs"> total.
-								</strong>
-								<span class="sub-title">Av. Constituyentes esquina con Av. 115</span>
-								<div class="text-center">
-							<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-								<time class="time" datetime="2017-02-03 20:00">Válido hasta enero de 2025.</time>
-								</div>
-							</div>
-
 							<!-- COSTAMED -->
 
 							<!-- col of the page -->
@@ -544,7 +554,7 @@
 								<span class="sub-title">Av 115 entre av Juárez y 1 sur.</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta junio de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta Diciembre de 2024.</time>
 								</div>
 							</div>
 
@@ -676,7 +686,7 @@
 									<span class="offer">15% Off</span>
 								</div>
 								<strong class="heading6">
-									<stron style="color: #F58323; font-size: 20px;">15%</stron> en la cuenta total. <br
+									<stron style="color: #F58323; font-size: 20px;">15%</stron> en el total de la cuenta. <br
 										class="hidden-xs">
 									<!--<stron style="color: #F58323; font-size: 20px;">15%</stron> en paquetes
 									preferenciales para celebración de cumpleaños. <br class="hidden-xs">-->
@@ -698,7 +708,7 @@
 
 					<header class="col-xs-12 text-center">
 
-						<p style="font-size: 12px;">*Aplican resricciones. **Para hacer válidas las promociones y
+						<p style="font-size: 12px;">*Aplican restricciones. **Para hacer válidas las promociones y
 							descuentos es indispensable presentar la tarjeta beneficios y una identificación oficial.
 							***Todos los beneficios se extienden a 2 familiares directos y acompañantes.****Descuentos y promociones válidas solo en sucursales de Playa del Carmen.</p>
 
@@ -707,7 +717,7 @@
 				</div>
 
 			</section>
-			
+
 			<!-- app sec of the page -->
 
 			<!--<div id="loader" class="loader-holder">
