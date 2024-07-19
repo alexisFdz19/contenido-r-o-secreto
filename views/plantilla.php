@@ -157,10 +157,6 @@
                                 include "modulos/ingles.php"; // Ruta del archivo de la página
                                 break;
 
-                            case 'eng':
-                                include "modulos/ingles.php"; // Ruta del archivo de la página
-                                break;
-
                             case 'tarjeta-beneficios':
                                 include "modulos/tarjetabeneficios.php"; // Ruta del archivo de la página
                                 break;
@@ -229,6 +225,10 @@
                         case 'eng':
                             include "modulos/ingles.php"; // Ruta del archivo de la página
                             break;
+
+                        case 'tarjeta-beneficios':
+                                include "modulos/tarjetabeneficios.php"; // Ruta del archivo de la página
+                                break;
                 
                         // Página de error 404   
                         default:
@@ -287,7 +287,7 @@
 <script src="<?php echo $url; ?>views/js/embebedYouTube.js"></script>
 
 <!-- Galeria -->
- 
+
 <script src="<?php echo $url; ?>views/galeria/js/stellar.js"></script>
 <script src="<?php echo $url; ?>views/galeria/vendors/lightbox/simpleLightbox.min.js"></script>
 <script src="<?php echo $url; ?>views/galeria/vendors/nice-select/js/jquery.nice-select.min.js"></script>
