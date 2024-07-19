@@ -246,8 +246,7 @@
 
                     } else {
 
-                        // Resto del código para manejar las rutas y páginas
-                        // ...
+                        include "modulos/default/error404.php";
 
                     }
 
