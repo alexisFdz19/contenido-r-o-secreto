@@ -145,7 +145,7 @@
 								<span class="sub-title"> Sucursales de Playa del Carmen, Q.Roo.</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta agosto de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta febrero de 2025.</time>
 								</div>
 							</div>
 
@@ -182,7 +182,7 @@
 									Ciudad Mayakoba, Playa del Carmen, Q.R.</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta Agosto de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta Febrero de 2025.</time>
 								</div>
 							</div>
 
@@ -325,7 +325,7 @@
 									Maya</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta Agosto de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta febrero de 2025.</time>
 								</div>
 							</div>
 
@@ -516,7 +516,7 @@
 								<div class="text-center">
 									<!-- <a href="#costamed" class="btn-primary text-center text-uppercase md-round">Ver precios completos<span class="code">18FX</span></a>-->
 
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta agosto de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta febrero de 2025.</time>
 								</div>
 							</div>
 
