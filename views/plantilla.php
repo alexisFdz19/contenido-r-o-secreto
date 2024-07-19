@@ -34,8 +34,11 @@
     $tarjetaBeneficios = strpos($_SERVER['REQUEST_URI'], '/tarjeta-beneficios') !== false;
 
     if ($tarjetaBeneficios) {
+
         // Estilos de la página "tarjeta-beneficios"
+
         ?>
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CPoppins:300,400,500,600,900%7CLily+Script+One" rel="stylesheet">
         <!-- include the site stylesheet -->
         <link rel="stylesheet" href="<?php echo $url; ?>views/css/tarjetabeneficios/font-awesome.css">
@@ -54,8 +57,11 @@
         <link rel="stylesheet" href="<?php echo $url; ?>views/css/tarjetabeneficios/responsive.css">
         <style class="color_css"></style>
         <link rel="stylesheet" href="<?php echo $url; ?>views/css/custom.css">
+
         <?php
+
     } else {
+
         // Estilos de la página principal "index"
         ?>
         <link rel="shortcut icon" href="<?php echo $url; ?>views/img/default/Favicon-01.png"/>
@@ -77,8 +83,11 @@
         <link rel="stylesheet" href="<?php echo $url; ?>views/galeria/css/style.css">
         <link rel="stylesheet" href="<?php echo $url; ?>views/galeria/css/responsive.css">
         <link rel="stylesheet" href="<?php echo $url; ?>views/galeria/scss/_predefine.scss">
+
         <?php
+
     }
+    
     ?>
 
     <!-- Ejemplo: Colocar la variable de la ruta del proyecto ($url) en el href en todos los links para convertir en dinámicas todos los recursos a usar
@@ -102,8 +111,10 @@
             $tarjetaBeneficios = strpos($_SERVER['REQUEST_URI'], '/tarjeta-beneficios') !== false;
 
             if (!$tarjetaBeneficios) {
+
                 // Verifica si la URI no corresponde a 'tarjeta-beneficios' y mostramos el nav de la página
                 include "modulos/default/NavHeader.php";
+
             }
 
 

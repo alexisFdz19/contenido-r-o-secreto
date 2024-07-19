@@ -1,65 +1,100 @@
-
-
 	<!-- main container of all the page elements -->
 	<div id="wrapper">
+
 		<!-- header of the page -->
 		<header id="header">
+
 			<!-- header top of the page -->
 			<div class="header-top">
+
 				<div class="container">
+
 					<div class="row">
+
 						<div class="col-xs-12">
+
 							<!--<span class="txt">Welcome to Coupmy Save More With Our Deals</span>
 							<ul class="align-left list-unstyled">
 								<li><a href="#">Support</a></li>
 								<li><a href="login.html"><i class="fa fa-unlock-alt"></i> Login</a></li>
 								<li><a href="register.html"><i class="fa fa-user"></i> Register</a></li>
 							</ul>-->
+
 						</div>
+
 					</div>
+
 				</div>
+
 			</div>
+
 			<!-- header holder of the page -->
 
 			<!-- nav holder of the page -->
 
 		</header>
+
 		<!-- header of the page end -->
 		<!-- main of the page -->
 		<main id="main">
+
 			<!-- banner of the page -->
 			<section class="banner banner3 bg-full" style="background-image: url(<?php echo $url?>views/img/tarjetabeneficios/banner-optimizado.jpg);">
+
 				<div class="holder">
+
 					<div class="container">
+
 						<div class="row">
+
 							<div class="col-xs-12 text-center">
+
 								<h1></h1>
+
 							</div>
+
 						</div>
+
 					</div>
+
 				</div>
+
 			</section>
+
 			<!-- offer sec of the page -->
 			<section class="offer-sec container pad-top-lg pad-bottom-md">
+
 				<div class="row">
+
 					<header class="col-xs-12 text-center header">
+
 						<h2 class="heading">Aprovecha las promociones y descuentos</h2>
+
 						<ul class="list-unstyled filter-list">
+
 							<li class="active"><a href="#">Todos</a></li>
 							<li><a href="#" data-filter=".restaurantes" class="filtros">Restaurantes</a></li>
 							<li><a href="#" data-filter=".hospedaje" class="filtros">Hoteles</a></li>
 							<li><a href="#" data-filter=".salud" class="filtros">Salud y Educación</a></li>
 							<!--<li><a href="#" data-filter=".sport">Sports &amp; Fitness</a></li>
 							<li><a href="#" data-filter=".fashion">Fashion &amp; Appareals</a></li>-->
+
 						</ul>
+
 					</header>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-xs-12">
+
 						<!-- offer holder of the page -->
 						<div class="offer-holder">
+
 							<!-- col of the page -->
 							<div class="col mar-bottom-xs salud">
+								
 								<div class="header">
 									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/cui.jpg"
 											alt="logo" class="img-responsive"></div>
@@ -128,6 +163,7 @@
 									<!--<time class="time" datetime="2017-02-03 20:00">Válido hasta febrero de 2024.</time>
 								</div>
 							</div>-->
+
 							<div class="col mar-bottom-xs restaurantes">
 								<div class="header">
 									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/ahcacao.jpg"
@@ -143,6 +179,7 @@
 									<time class="time" datetime="2017-02-03 20:00">Válido hasta agosto de 2024.</time>
 								</div>
 							</div>
+							
 							<div class="col mar-bottom-xs hteles">
 								<div class="header">
 									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/ultramar.jpg" alt="logo"
@@ -652,18 +689,25 @@
 							</div>
 
 						</div>
+
 					</div>
+
 				</div>
 
 				<div class="row" style="margin-top: 50px;">
+
 					<header class="col-xs-12 text-center">
+
 						<p style="font-size: 12px;">*Aplican resricciones. **Para hacer válidas las promociones y
 							descuentos es indispensable presentar la tarjeta beneficios y una identificación oficial.
 							***Todos los beneficios se extienden a 2 familiares directos y acompañantes.****Descuentos y promociones válidas solo en sucursales de Playa del Carmen.</p>
+
 					</header>
+					
 				</div>
 
 			</section>
+			
 			<!-- app sec of the page -->
 
 			<!--<div id="loader" class="loader-holder">
