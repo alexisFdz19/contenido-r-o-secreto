@@ -1611,7 +1611,7 @@
             <div class="h_gallery_item">
             <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-engargolado-rio-secreto.jpg" alt="">
             <div class="hover">
-                <a href="<?php echo $url?>views/img/contenido/Materiales/engargolado/engargolado-rio-secreto-2024.pdf" target="blank"><h4>Brochure Río Secreto</h4></a>
+                <a href="<?php echo $url?>views/img/contenido/Materiales/engargolado/engarlogado-rio-secreto-2024.pdf" target="blank"><h4>Brochure Río Secreto</h4></a>
             </div>
             </div>
         </div>
