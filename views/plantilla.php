@@ -28,6 +28,16 @@
     <meta name="theme-color" content="#0C6295" />
     <!-- Termina verificación de Google-->
 
+    <!-- Google tag para analytics (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K24X15JBXG"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-K24X15JBXG');
+    </script>
+
     <?php
 
     // Detectar si estamos en la página "tarjeta-beneficios"
