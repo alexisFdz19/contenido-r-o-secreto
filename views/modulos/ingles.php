@@ -1694,7 +1694,7 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-wild-y-tulum.jpg" alt="">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-zona-tulum.jpg" alt="">
             <div class="hover">
                 <a href="#"></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-tulum-todos-los-productos.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Tulum</h4></i></a>    
