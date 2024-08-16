@@ -1060,8 +1060,8 @@
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
-            <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-8.jpg" alt="">
+            <div class="h_gallery_item" style="display: flex; justify-content: center;">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-8.jpg" alt="" style="width: 55%;">
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-8.jpg"><i class="fas fa-expand"></i></a>
@@ -1085,6 +1085,46 @@
             <div class="hover">
                 <a href="#"><h4></h4></a>
                 <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-10.jpg"><i class="fas fa-expand"></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
+            <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-11.jpg" alt="">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-11.jpg"><i class="fas fa-expand"></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
+            <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-12.jpg" alt="">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-12.jpg"><i class="fas fa-expand"></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
+            <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-13.jpg" alt="">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-13.jpg"><i class="fas fa-expand"></i></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap9 oculto">
+            <div class="h_gallery_item">
+            <img loading="lazy" src="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-14.jpg" alt="">
+            <div class="hover">
+                <a href="#"><h4></h4></a>
+                <a class="light" href="<?php echo $url?>views/img/contenido/SaltySweet/Fotos/Salty-and-sweet-14.jpg"><i class="fas fa-expand"></i></a>
             </div>
             </div>
         </div>
