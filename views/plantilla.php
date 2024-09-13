@@ -23,6 +23,8 @@
 
     <meta name="description" content="Sitio Oficial de descarga de imágenes, videos y contenido de Río Secreto Reserva Natural ubicada en Playa del Carmen."/>
 
+    <meta name="keywords" content="Río Secreto, reserva natural, Playa del Carmen, descarga de contenido, imágenes oficiales, videos oficiales, medios de comunicación, prensa, agencias de viaje, contenido para medios, fotos de Río Secreto, videos de Río Secreto, naturaleza subterránea, recursos de marketing, turismo Riviera Maya">
+
     <!--Verificación de Google-->
     <meta name="google-site-verification" content="qkzu6HOUA572iPBGS31JzCH3kBbA_KOj4JkWHAkpZJM" />
     <meta name="theme-color" content="#0C6295" />
