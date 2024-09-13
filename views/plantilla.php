@@ -17,7 +17,7 @@
 
     <meta charset="UTF-8">
 
-	<title>Río Secreto Medios | Descubre y descarga nuestro contenido</title>
+	<title>Río Secreto Medios | Sitio Oficial de descarga de material gráfico, publicidad y medios.</title>
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
