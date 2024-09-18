@@ -198,6 +198,7 @@
                     // Página index o home por defecto del sitio web
 
                     if ($_SERVER["REQUEST_URI"] === "/imagenriosecreto/") {
+                        // Para el hosting online: ($_SERVER["REQUEST_URI"] === "/" || $_SERVER["REQUEST_URI"] === "/imagenriosecreto/")
 
                         $ruta = "index";
                         include "modulos/index.php";
