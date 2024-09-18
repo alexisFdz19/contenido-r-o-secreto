@@ -107,11 +107,11 @@
 
     <div class="banderas">
 
-      <a aria-label="Mira y descarga los materiales en idioma español" href="<?php echo $url?>" class="linkBanderas"><img alt="ícono bandera de México" src="<?php echo $url?>views/img/default/mexico.jpg" width="20%"></a>
+      <a href="<?php echo $url?>" class="linkBanderas"><img src="<?php echo $url?>views/img/default/mexico.jpg" width="20%"></a>
     
         <span class="tituloPrincipal" style="margin-left: 8px; margin-right: 8px;"> | </span>
 
-      <a aria-label="Mira y descarga los materiales en idioma inglés" href="<?php echo $url?>eng" class="linkBanderas"><img alt="ícono bandera de USA" src="<?php echo $url?>views/img/default/usa.jpg" width="20%"></a>
+      <a href="<?php echo $url?>eng" class="linkBanderas"><img src="<?php echo $url?>views/img/default/usa.jpg" width="20%"></a>
 
     </div>
 
@@ -127,7 +127,7 @@
 
             <div class="col-12 col-lg-6">
 
-                <img alt="Banner Bienvenidos a Río Secreto" src="<?php echo $url ?>views/img/default/bienvenido-ing.png" class="imgBienvenidos">
+                <img src="<?php echo $url ?>views/img/default/bienvenido-ing.png" class="imgBienvenidos">
 
             </div>
 

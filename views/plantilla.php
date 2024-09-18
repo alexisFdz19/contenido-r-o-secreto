@@ -19,9 +19,7 @@
 
 	<title>Río Secreto Medios | Sitio Oficial de descarga de material gráfico, publicidad y medios.</title>
 
-    <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <meta name="description" content="Sitio Oficial de descarga de imágenes, videos y contenido de Río Secreto Reserva Natural ubicada en Playa del Carmen."/>
 
@@ -198,8 +196,6 @@
                     // echo "El bloque else se está ejecutando.";
 
                     // Página index o home por defecto del sitio web
-
-                    // if ($_SERVER["REQUEST_URI"] === "/" || $_SERVER["REQUEST_URI"] === "/imagenriosecreto/") (Esta es la línea de código del if para el servidor)
 
                     if ($_SERVER["REQUEST_URI"] === "/imagenriosecreto/") {
 

@@ -53,39 +53,39 @@
 
           <li class="list-inline-item">
             
-            <a aria-label="Visita nuestro perfil de Facebook" href="https://www.facebook.com/riosecretomexico/" target="_blank">
+            <a href="https://www.facebook.com/riosecretomexico/" target="_blank">
             
-              <img alt="ícono de Facebook" loading="lazy" src="<?php echo $url?>views/img/default/facebook.png" width="8%">                    
-            
-            </a>
-
-            <a aria-label="Visita nuestro perfil de Instagram" href="https://www.instagram.com/riosecreto/" target="_blank">
-            
-              <img alt="ícono de Instagram" loading="lazy" src="<?php echo $url?>views/img/default/Instagram.png" width="8%">                    
+              <img loading="lazy" src="<?php echo $url?>views/img/default/facebook.png" width="8%">                    
             
             </a>
 
-            <a aria-label="Visita nuestro perfil de TikTok" href="https://www.tiktok.com/@riosecreto" target="_blank">
+            <a href="https://www.instagram.com/riosecreto/" target="_blank">
             
-              <img alt="ícono de TikTok" loading="lazy" src="<?php echo $url?>views/img/default/tik-tok.png" width="8%">                    
-            
-            </a>
-
-            <a aria-label="Visita nuestro perfil de X" href="https://x.com/riosecreto" target="_blank">
-            
-              <img alt="ícono de X" loading="lazy" src="<?php echo $url?>views/img/default/x.png" width="7.5%">                    
+              <img loading="lazy" src="<?php echo $url?>views/img/default/Instagram.png" width="8%">                    
             
             </a>
 
-            <a aria-label="Visita nuestro perfil de YouTube" href="https://www.youtube.com/user/RSecretoMexico" target="_blank">
+            <a href="https://www.tiktok.com/@riosecreto" target="_blank">
             
-              <img alt="ícono de YouTube" loading="lazy" src="<?php echo $url?>views/img/default/youtube.png" width="8%">                    
+              <img loading="lazy" src="<?php echo $url?>views/img/default/tik-tok.png" width="8%">                    
             
             </a>
 
-            <a aria-label="Visita nuestro perfil de LinkedIn" href="https://www.linkedin.com/company/444286/" target="_blank">
+            <a href="https://x.com/riosecreto" target="_blank">
             
-              <img alt="ícono de LinkedIn" loading="lazy" src="<?php echo $url?>views/img/default/linkedin.png" width="8%">                    
+              <img loading="lazy" src="<?php echo $url?>views/img/default/x.png" width="7.5%">                    
+            
+            </a>
+
+            <a href="https://www.youtube.com/user/RSecretoMexico" target="_blank">
+            
+              <img loading="lazy" src="<?php echo $url?>views/img/default/youtube.png" width="8%">                    
+            
+            </a>
+
+            <a href="https://www.linkedin.com/company/444286/" target="_blank">
+            
+              <img loading="lazy" src="<?php echo $url?>views/img/default/linkedin.png" width="8%">                    
             
             </a>
           
