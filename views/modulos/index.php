@@ -1664,50 +1664,45 @@
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-cancun-rio-secreto-clasico-y-plus.jpg" alt="">
+            <img  loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-cancun-rio-secreto-clasico-y-plus.jpg" alt="">
             <div class="hover">
-                <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-clasico-y-plus.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Cancún: RS Clásico y RS Plus</h4></i></a>    
+                <a href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-clasico-y-plus.pdf" target="blank"><h4>Pickups Cancún: RS Clásico y RS Plus</h4></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-clasico-y-plus.jpg" alt="">
+            <img  loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-clasico-y-plus.jpg" alt="">
             <div class="hover">
-                <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-clasico-y-plus.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Riviera Maya: RS Clásico y RS Plus</h4></i></a>    
+                <a href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-clasico-y-plus.pdf" target="blank"><h4>Pickups Riviera Maya: RS Clásico y RS Plus</h4></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-cancun-rio-secreto-wild-y-tulum.jpg" alt="">
+            <img  loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-cancun-rio-secreto-wild-y-tulum.jpg" alt="">
             <div class="hover">
-                <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-wild-tulum-coba.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Cancún: RS Tulum, RS Wild y RS Cobá.</h4></i></a>    
+                <a href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-cancun-rio-secreto-wild-tulum-coba.pdf" target="blank"><h4>Pickups Cancún: RS Tulum y RS Cobá</h4></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-wild-y-tulum.jpg" alt="">
+            <img  loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-riviera-rio-secreto-wild-y-tulum.jpg" alt="">
             <div class="hover">
-                <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-wild-tulum-coba.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Riviera Maya: RS Tulum, RS Wild y RS Cobá.</h4></i></a>    
+                <a href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-riviera-rio-secreto-wild-tulum-coba.pdf" target="blank"><h4>Pickups Riviera Maya: RS Tulum y RS Cobá.</h4></a>
             </div>
             </div>
         </div>
 
         <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
             <div class="h_gallery_item">
-            <img loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-zona-tulum.jpg" alt="">
+            <img  loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-pickups-zona-tulum.jpg" alt="">
             <div class="hover">
-                <a href="#"></a>
-                <a class="light" href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-tulum-rio-secreto.jpg"><i class="fas fa-expand"><br><br><h4>Pickups Tulum</h4></i></a>    
+                <a href="<?php echo $url?>views/img/contenido/Materiales/pickups/pickups-tulum-rio-secreto.pdf" target="blank"><h4>Pickups Tulum</h4></a>
             </div>
             </div>
         </div>
