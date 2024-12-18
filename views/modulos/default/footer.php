@@ -121,24 +121,7 @@
 
     <div class="col-6 col-xs-6 col-md-3 col-lg-3">
 
-      <img loading="lazy" class="img-fluid logosFinal" src="<?php echo $url?>views/img/contenido/RS Wild/Logo/logo-rio-secreto-wild-low.png" alt="Card image cap">
-
-    </div>
-
-
-    <div class="col-6 col-xs-6 col-md-3 col-lg-3">
-
       <img loading="lazy" class="img-fluid logosFinalT" src="<?php echo $url?>views/img/contenido/RS Tulum/Logo/logo-rio-secreto-tulum-low.png" alt="Card image cap">
-
-    </div>
-
-  </div>
-
-  <div class="row">
-
-    <div class="col-6 col-xs-6 col-md-3 col-lg-3">
-
-      <img loading="lazy" class="img-fluid logosFinalT" src="<?php echo $url?>views/img/contenido/SaltySweet/Logo/S&S-logo-azul-fuerte-low.png" alt="Card image cap">
 
     </div>
 
@@ -148,13 +131,24 @@
 
     </div>
 
-    <div class="col-6 col-xs-6 col-md-3 col-lg-3">
+  </div>
+
+  <div class="row">
+
+    <div class="col-6 col-xs-6 col-md-3 col-lg-4">
+
+      <img loading="lazy" class="img-fluid logosFinalT" src="<?php echo $url?>views/img/contenido/SaltySweet/Logo/S&S-logo-azul-fuerte-low.png" alt="Card image cap">
+
+    </div>
+
+
+    <div class="col-6 col-xs-6 col-md-3 col-lg-4">
 
         <img loading="lazy" class="img-fluid logosFinalP" src="<?php echo $url?>views/img/contenido/Privilege/Logo/logo-rio-secreto-privilege-low.png" alt="Card image cap">
 
     </div>
 
-    <div class="col-6 col-xs-6 col-md-3 col-lg-3">
+    <div class="col-6 col-xs-6 col-md-3 col-lg-4">
 
       <img loading="lazy" class="img-fluid logosFinalG" src="<?php echo $url?>views/img/contenido/Grupos/logo-romance-by-rio-secreto-low.png" alt="Card image cap">
 
