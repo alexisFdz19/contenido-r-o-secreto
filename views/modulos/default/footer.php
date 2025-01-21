@@ -187,7 +187,7 @@
 
     <div class="container">
 
-      <span class="tituloFooter">© Copyright 2024 | Río Secreto </span>
+      <span class="tituloFooter">© Copyright 2025 | Río Secreto </span>
 
     </div>
 

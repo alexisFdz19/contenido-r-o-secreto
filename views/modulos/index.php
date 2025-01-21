@@ -1707,6 +1707,24 @@
             </div>
         </div>
 
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
+            <div class="h_gallery_item">
+            <img  loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-frecuencia-de-tours.jpg" alt="">
+            <div class="hover">
+                <a href="<?php echo $url?>views/img/contenido/Materiales/frecuencias-tours/frecuencias-de-tours-riosecreto.pdf" target="blank"><h4>Frecuencias de tours</h4></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 ap6 oculto">
+            <div class="h_gallery_item">
+            <img  loading="lazy" src="<?php echo $url?>views/img/contenido/Materiales/mockups/mockup-tarifario-rio-secreto.jpg" alt="">
+            <div class="hover">
+                <a href="<?php echo $url?>views/img/contenido/Materiales/tarifario/tarifario-rio-secreto.pdf" target="blank"><h4>Tarifario Río Secreto</h4></a>
+            </div>
+            </div>
+        </div>
+
         <!--=============================================
             =            Jaguar WC          =
         =============================================-->
