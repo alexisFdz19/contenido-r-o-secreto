@@ -111,6 +111,24 @@
 								</div>
 							</div>
 
+							<!-- PRO-VISION -->
+
+							<!-- col of the page -->
+							<div class="col mar-bottom-xs salud">
+								<div class="header">
+									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/pro-vision.jpg" alt="logo" class="img-responsive"></div>
+									<span class="offer">15% Off</span>
+								</div>
+								<strong class="heading6">
+									Examen de la vista <stron style="color: #F58323; font-size: 20px;">Gratis</stron> + <stron style="color: #F58323; font-size: 20px;"> 15% </stron> de descuento.
+								</strong>
+								<span class="sub-title">Calle 30 Nte 5-Interior Sn, Gonzalo Guerrero, 77710 Playa del Carmen, Q.R.<br>984 108 99 50</span>
+								<div class="text-center">
+							<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
+								<time class="time" datetime="2017-02-03 20:00">Válido hasta diciembre de 2025.</time>
+								</div>
+							</div>
+
 							<!-- CUI -->
 
 							<!-- col of the page -->
@@ -266,7 +284,7 @@
 									Q.R.</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta Diciembre de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta Junio de 2025.</time>
 								</div>
 							</div>
 							<!-- col of the page -->
@@ -309,7 +327,7 @@
 
 							<!-- AMOR DEL BUENO -->
 
-							<div class="col mar-bottom-xs restaurantes">
+							<!--<div class="col mar-bottom-xs restaurantes">
 								<div class="header">
 									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/amordelbueno.jpg"
 											alt="logo" class="img-responsive"></div>
@@ -322,12 +340,12 @@
 									colaborador.
 								</strong>
 								<span class="sub-title">Av Kantenha MZA 002, Galaxia del Carmen II, 77710 o Centro
-									Maya</span>
-								<div class="text-center">
-									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
+									Maya</span>-->
+								<!--<div class="text-center">-->
+									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a
 									<time class="time" datetime="2017-02-03 20:00">Válido hasta febrero de 2025.</time>
 								</div>
-							</div>
+							</div>-->
 
 							<!-- KOOL BEACH-->
 
@@ -407,7 +425,7 @@
 									Ejidal.</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta enero de 2025.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta julio de 2025.</time>
 								</div>
 							</div>
 
@@ -491,7 +509,7 @@
 								<span class="sub-title">Sucursal Playacar Plaza en Av. Aviación y sucursal 5ta avenida</span>
 								<div class="text-center">
 							<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-								<time class="time" datetime="2017-02-03 20:00">Válido hasta enero de 2025.</time>
+								<time class="time" datetime="2017-02-03 20:00">Válido hasta julio de 2025.</time>
 								</div>
 							</div>
 
@@ -516,7 +534,7 @@
 								<div class="text-center">
 									<!-- <a href="#costamed" class="btn-primary text-center text-uppercase md-round">Ver precios completos<span class="code">18FX</span></a>-->
 
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta febrero de 2025.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta diciembre de 2025.</time>
 								</div>
 							</div>
 
@@ -534,14 +552,14 @@
 								<span class="sub-title">Carretera Federal entre Calle 2 Nte. y Av. Juárez.</span>
 								<div class="text-center">
 							<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-								<time class="time" datetime="2017-02-03 20:00">Válido hasta enero de 2025.</time>
+								<time class="time" datetime="2017-02-03 20:00">Válido hasta julio de 2025.</time>
 								</div>
 							</div>
 
 							<!-- EL VIRIL -->
 
 							<!-- col of the page -->
-							<div class="col mar-bottom-xs restaurantes">
+							<!--<div class="col mar-bottom-xs restaurantes">
 								<div class="header">
 									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/elviril.jpg" alt="logo"
 											class="img-responsive"></div>
@@ -552,11 +570,11 @@
 									cuenta <br class="hidden-xs">total + una cerveza de barril de cortesía
 								</strong>
 								<span class="sub-title">Av 115 entre av Juárez y 1 sur.</span>
-								<div class="text-center">
-									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
+								<div class="text-center">-->
+									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>
 									<time class="time" datetime="2017-02-03 20:00">Válido hasta Diciembre de 2024.</time>
 								</div>
-							</div>
+							</div>-->
 
 							<!-- FRUTIYOGURTH -->
 
@@ -590,7 +608,7 @@
 								<span class="sub-title">Av. 10 Nte. Esq. Calle 10 Bis.</span>
 								<div class="text-center">
 							<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-								<time class="time" datetime="2017-02-03 20:00">Válido hasta Enero de 2025.</time>
+								<time class="time" datetime="2017-02-03 20:00">Válido hasta julio de 2025.</time>
 								</div>
 							</div>
 
@@ -686,7 +704,7 @@
 									<span class="offer">15% Off</span>
 								</div>
 								<strong class="heading6">
-									<stron style="color: #F58323; font-size: 20px;">15%</stron> en el total de la cuenta. <br
+									El Gobernador: <stron style="color: #F58323; font-size: 20px;">15%</stron> en el total de la cuenta. <br
 										class="hidden-xs">
 									<!--<stron style="color: #F58323; font-size: 20px;">15%</stron> en paquetes
 									preferenciales para celebración de cumpleaños. <br class="hidden-xs">-->
@@ -694,7 +712,7 @@
 								<span class="sub-title">Primera Norte Mz 26 Lt 1 Local 22A, Centro.</span>
 								<div class="text-center">
 									<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-									<time class="time" datetime="2017-02-03 20:00">Válido hasta diciembre de 2024.</time>
+									<time class="time" datetime="2017-02-03 20:00">Válido hasta junio de 2025.</time>
 								</div>
 							</div>
 
@@ -709,8 +727,7 @@
 					<header class="col-xs-12 text-center">
 
 						<p style="font-size: 12px;">*Aplican restricciones. **Para hacer válidas las promociones y
-							descuentos es indispensable presentar la tarjeta beneficios y una identificación oficial.
-							***Todos los beneficios se extienden a 2 familiares directos y acompañantes.****Descuentos y promociones válidas solo en sucursales de Playa del Carmen.</p>
+							descuentos es indispensable presentar la tarjeta beneficios y una identificación oficial.***Descuentos y promociones válidas solo en sucursales de Playa del Carmen.</p>
 
 					</header>
 					
