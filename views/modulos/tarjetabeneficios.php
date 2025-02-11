@@ -579,20 +579,20 @@
 							<!-- FRUTIYOGURTH -->
 
 							<!-- col of the page -->
-							<!--<div class="col mar-bottom-xs restaurantes">
+							<div class="col mar-bottom-xs restaurantes">
 								<div class="header">
-									<div class="c-logo"><img loading="lazy" src="images/logos/frutiyogurth.jpg" alt="logo" class="img-responsive"></div>
+									<div class="c-logo"><img loading="lazy" src="<?php echo $url?>views/img/tarjetabeneficios/logos/frutiyogurth.jpg" alt="logo" class="img-responsive"></div>
 									<span class="offer">20% Off</span>
 								</div>
 								<strong class="heading6">
 									<stron style="color: #F58323; font-size: 20px;">20%</stron> en colaboradores <br class="hidden-xs">y familiares directos.
 								</strong>
 								<span class="sub-title">Calle 34 Norte esquina con Av. 40 Norte, Col. Infonavit Las Gaviotas.</span>
-								<div class="text-center">-->
+								<div class="text-center">
 							<!--<a href="coupon-detail.html" class="btn-primary text-center text-uppercase md-round">view coupon <span class="code">18FX</span></a>-->
-							<!--<time class="time" datetime="2017-02-03 20:00">Válido hasta agosto de 2022.</time>
+							<time class="time" datetime="2017-02-03 20:00">Válido hasta agosto de 2022.</time>
 								</div>
-							</div>-->
+							</div>
 
 							<!-- IPANEMAS -->
 
